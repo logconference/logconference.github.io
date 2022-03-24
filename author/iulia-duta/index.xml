@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iulia Duta | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/iulia-duta/</link>
+      <atom:link href="https://logconference.github.io/author/iulia-duta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Iulia Duta</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/iulia-duta/avatar_hu92dff6c3c00806706d3ca79f125fdabc_238389_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Iulia Duta</title>
+      <link>https://logconference.github.io/author/iulia-duta/</link>
+    </image>
+    
+  </channel>
+</rss>

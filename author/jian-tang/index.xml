@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jian Tang | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/jian-tang/</link>
+      <atom:link href="https://logconference.github.io/author/jian-tang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jian Tang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/jian-tang/avatar_hu707a3d78b56eae67a1eb537dfeee5f74_67111_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Jian Tang</title>
+      <link>https://logconference.github.io/author/jian-tang/</link>
+    </image>
+    
+  </channel>
+</rss>

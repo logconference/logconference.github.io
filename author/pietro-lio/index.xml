@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pietro Liò | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/pietro-lio/</link>
+      <atom:link href="https://logconference.github.io/author/pietro-lio/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pietro Liò</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/pietro-lio/avatar_hub19181af1adaaa237160b88d2278d844_63543_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Pietro Liò</title>
+      <link>https://logconference.github.io/author/pietro-lio/</link>
+    </image>
+    
+  </channel>
+</rss>

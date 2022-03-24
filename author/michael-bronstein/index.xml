@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Bronstein | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/michael-bronstein/</link>
+      <atom:link href="https://logconference.github.io/author/michael-bronstein/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael Bronstein</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/michael-bronstein/avatar_hu8a44804553e2addce77810a1abd0336b_39451_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Michael Bronstein</title>
+      <link>https://logconference.github.io/author/michael-bronstein/</link>
+    </image>
+    
+  </channel>
+</rss>

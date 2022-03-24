@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xavier Bresson | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/xavier-bresson/</link>
+      <atom:link href="https://logconference.github.io/author/xavier-bresson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xavier Bresson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/xavier-bresson/avatar_hu220a994005f254de387c10327625b29a_15423_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Xavier Bresson</title>
+      <link>https://logconference.github.io/author/xavier-bresson/</link>
+    </image>
+    
+  </channel>
+</rss>

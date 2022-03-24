@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joshua Robinson | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/joshua-robinson/</link>
+      <atom:link href="https://logconference.github.io/author/joshua-robinson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Joshua Robinson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/joshua-robinson/avatar_hud605fb6f6b3f2159d117aea2487766dc_31011_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Joshua Robinson</title>
+      <link>https://logconference.github.io/author/joshua-robinson/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jure Leskovec | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/jure-leskovec/</link>
+      <atom:link href="https://logconference.github.io/author/jure-leskovec/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jure Leskovec</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/jure-leskovec/avatar_hu7851a16ea69468b3f50e061bc499c8e9_753640_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Jure Leskovec</title>
+      <link>https://logconference.github.io/author/jure-leskovec/</link>
+    </image>
+    
+  </channel>
+</rss>

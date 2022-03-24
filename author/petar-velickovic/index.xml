@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Petar Veličković | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/petar-velickovic/</link>
+      <atom:link href="https://logconference.github.io/author/petar-velickovic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Petar Veličković</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/petar-velickovic/avatar_hu9a8963b09567d8bcc1b55d6c40c141b4_12786_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Petar Veličković</title>
+      <link>https://logconference.github.io/author/petar-velickovic/</link>
+    </image>
+    
+  </channel>
+</rss>

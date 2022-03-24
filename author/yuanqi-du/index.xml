@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuanqi Du | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/yuanqi-du/</link>
+      <atom:link href="https://logconference.github.io/author/yuanqi-du/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuanqi Du</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/yuanqi-du/avatar_hubbfe3c110bb045e47934b740e5f35827_83380_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yuanqi Du</title>
+      <link>https://logconference.github.io/author/yuanqi-du/</link>
+    </image>
+    
+  </channel>
+</rss>

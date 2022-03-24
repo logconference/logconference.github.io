@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephan Günnemann | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/stephan-gunnemann/</link>
+      <atom:link href="https://logconference.github.io/author/stephan-gunnemann/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stephan Günnemann</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/stephan-gunnemann/avatar_hucebdd552ef3ad58570b7e4e920d21482_21991_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Stephan Günnemann</title>
+      <link>https://logconference.github.io/author/stephan-gunnemann/</link>
+    </image>
+    
+  </channel>
+</rss>
