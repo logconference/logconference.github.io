@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yanqiao Zhu | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/yanqiao-zhu/</link>
+      <atom:link href="https://logconference.github.io/author/yanqiao-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yanqiao Zhu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/yanqiao-zhu/avatar_hu93e4ec5a4355228d0c993a0d14211bf2_1234115_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yanqiao Zhu</title>
+      <link>https://logconference.github.io/author/yanqiao-zhu/</link>
+    </image>
+    
+  </channel>
+</rss>
