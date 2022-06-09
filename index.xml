@@ -58,5 +58,21 @@
       <description></description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://logconference.github.io/conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://logconference.github.io/conduct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://logconference.github.io/dei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://logconference.github.io/dei/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

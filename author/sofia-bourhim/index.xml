@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sofia Bourhim | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/sofia-bourhim/</link>
+      <atom:link href="https://logconference.github.io/author/sofia-bourhim/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sofia Bourhim</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/sofia-bourhim/avatar_hue58323c8b408ab76a0a992d56d3f00c0_821675_270x270_fill_lanczos_center_3.png</url>
+      <title>Sofia Bourhim</title>
+      <link>https://logconference.github.io/author/sofia-bourhim/</link>
+    </image>
+    
+  </channel>
+</rss>
