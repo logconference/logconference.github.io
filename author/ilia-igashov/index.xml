@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ilia Igashov | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/ilia-igashov/</link>
+      <atom:link href="https://logconference.github.io/author/ilia-igashov/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ilia Igashov</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/ilia-igashov/avatar_hu62033eecd33c06a8aa12c39cc7afe437_265409_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Ilia Igashov</title>
+      <link>https://logconference.github.io/author/ilia-igashov/</link>
+    </image>
+    
+  </channel>
+</rss>
