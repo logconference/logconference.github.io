@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taco Cohen | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/taco-cohen/</link>
+      <atom:link href="https://logconference.github.io/author/taco-cohen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Taco Cohen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/taco-cohen/avatar_hufdcaa2a94d78d2cd39ac6daf443f6413_825844_270x270_fill_lanczos_center_3.png</url>
+      <title>Taco Cohen</title>
+      <link>https://logconference.github.io/author/taco-cohen/</link>
+    </image>
+    
+  </channel>
+</rss>
