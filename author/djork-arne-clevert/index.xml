@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Djork-Arné Clevert | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/djork-arne-clevert/</link>
+      <atom:link href="https://logconference.github.io/author/djork-arne-clevert/index.xml" rel="self" type="application/rss+xml" />
+    <description>Djork-Arné Clevert</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/djork-arne-clevert/avatar_hu267d44516d6047c5cba67fe65ea28569_466583_270x270_fill_lanczos_center_3.png</url>
+      <title>Djork-Arné Clevert</title>
+      <link>https://logconference.github.io/author/djork-arne-clevert/</link>
+    </image>
+    
+  </channel>
+</rss>
