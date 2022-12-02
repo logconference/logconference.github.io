@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tommaso Biancalani | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/tommaso-biancalani/</link>
+      <atom:link href="https://logconference.github.io/author/tommaso-biancalani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tommaso Biancalani</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/tommaso-biancalani/avatar_huf8599b57fe75827ca371575c148fd9c1_104649_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Tommaso Biancalani</title>
+      <link>https://logconference.github.io/author/tommaso-biancalani/</link>
+    </image>
+    
+  </channel>
+</rss>
