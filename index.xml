@@ -52,6 +52,14 @@
     
     <item>
       <title></title>
+      <link>https://logconference.github.io/call-for-tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://logconference.github.io/call-for-tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://logconference.github.io/cfp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://logconference.github.io/cfp/</guid>
@@ -92,17 +100,17 @@
     
     <item>
       <title></title>
-      <link>https://logconference.github.io/sponsors/</link>
+      <link>https://logconference.github.io/schedule-tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://logconference.github.io/sponsors/</guid>
+      <guid>https://logconference.github.io/schedule-tutorials/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://logconference.github.io/tutorials/</link>
+      <link>https://logconference.github.io/sponsors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://logconference.github.io/tutorials/</guid>
+      <guid>https://logconference.github.io/sponsors/</guid>
       <description></description>
     </item>
     
