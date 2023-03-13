@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benjamin Chamberlain | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/benjamin-chamberlain/</link>
+      <atom:link href="https://logconference.github.io/author/benjamin-chamberlain/index.xml" rel="self" type="application/rss+xml" />
+    <description>Benjamin Chamberlain</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/benjamin-chamberlain/avatar_huf8ebf8cb2d7e143465ab1fc98b4afbf8_44624_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Benjamin Chamberlain</title>
+      <link>https://logconference.github.io/author/benjamin-chamberlain/</link>
+    </image>
+    
+  </channel>
+</rss>
