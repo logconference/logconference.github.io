@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathieu Alain | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/mathieu-alain/</link>
+      <atom:link href="https://logconference.github.io/author/mathieu-alain/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mathieu Alain</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/mathieu-alain/avatar_huc266e6eb6f3f41e536828c57f0deffcc_758977_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Mathieu Alain</title>
+      <link>https://logconference.github.io/author/mathieu-alain/</link>
+    </image>
+    
+  </channel>
+</rss>
