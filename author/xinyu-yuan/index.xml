@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xinyu Yuan | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/xinyu-yuan/</link>
+      <atom:link href="https://logconference.github.io/author/xinyu-yuan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xinyu Yuan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/xinyu-yuan/avatar_hu9d2904b4f43f68b4aabf0776e6d61b8f_28152_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Xinyu Yuan</title>
+      <link>https://logconference.github.io/author/xinyu-yuan/</link>
+    </image>
+    
+  </channel>
+</rss>
