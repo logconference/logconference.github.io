@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andreas Loukas | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/andreas-loukas/</link>
+      <atom:link href="https://logconference.github.io/author/andreas-loukas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andreas Loukas</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/andreas-loukas/avatar_hu7be956f8e3087eac2f2958b296720974_76425_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Andreas Loukas</title>
+      <link>https://logconference.github.io/author/andreas-loukas/</link>
+    </image>
+    
+  </channel>
+</rss>
