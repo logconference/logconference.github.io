@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smita Krishnaswamy | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/smita-krishnaswamy/</link>
+      <atom:link href="https://logconference.github.io/author/smita-krishnaswamy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Smita Krishnaswamy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/smita-krishnaswamy/avatar_hu45d5567ebe2879abbc90c7d1f2a672fa_16242_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Smita Krishnaswamy</title>
+      <link>https://logconference.github.io/author/smita-krishnaswamy/</link>
+    </image>
+    
+  </channel>
+</rss>
