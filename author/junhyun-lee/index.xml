@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Junhyun Lee | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/junhyun-lee/</link>
+      <atom:link href="https://logconference.github.io/author/junhyun-lee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Junhyun Lee</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/junhyun-lee/avatar_hu0c2ef68cbee7371264e418e315ae0fef_94935_270x270_fill_lanczos_center_3.png</url>
+      <title>Junhyun Lee</title>
+      <link>https://logconference.github.io/author/junhyun-lee/</link>
+    </image>
+    
+  </channel>
+</rss>
