@@ -864,7 +864,7 @@
 <script>
 // Set the date we're counting down to
 // var countDownDate = new Date("Sep 9, 2022 24:00:00").getTime();
-var countDownDate = Date.UTC(2024, 9, 15, 12, 0, 0);
+var countDownDate = Date.UTC(2024, 9, 29, 12, 0, 0);
 // Time AoE: add 1 day and ~12 hours from GMT. Reduce 1 month, idk why.
 
 // Update the count down every 1 second
@@ -883,7 +883,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="timer"
-  document.getElementById("timer").innerHTML = "<b>Upcoming deadline</b>: 2 Week Rebuttal Stage Starts: " + days + "d " + hours + "h "
+  document.getElementById("timer").innerHTML = "<b>Upcoming deadline</b>: 2 Week Rebuttal Stage Ends: " + days + "d " + hours + "h "
   + minutes + "m " + seconds + "s to go!";
 
   // If the count down is finished, write some text
