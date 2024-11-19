@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alden Hung | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/alden-hung/</link>
+      <atom:link href="https://logconference.github.io/author/alden-hung/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alden Hung</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/alden-hung/avatar_hudd356947c94af5913fb51b77dce9265f_8132_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Alden Hung</title>
+      <link>https://logconference.github.io/author/alden-hung/</link>
+    </image>
+    
+  </channel>
+</rss>

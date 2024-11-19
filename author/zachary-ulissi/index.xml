@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zachary Ulissi | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/zachary-ulissi/</link>
+      <atom:link href="https://logconference.github.io/author/zachary-ulissi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zachary Ulissi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/zachary-ulissi/avatar_hu1a3052f03eb3994e22b9579c2ba6c3a9_13140_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Zachary Ulissi</title>
+      <link>https://logconference.github.io/author/zachary-ulissi/</link>
+    </image>
+    
+  </channel>
+</rss>
