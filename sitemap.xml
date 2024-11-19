@@ -4,8 +4,6 @@
   
   
   <url>
-    <loc>https://logconference.github.io/schedule-keynotes/keynotes/</loc><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://logconference.github.io/post/announcement/</loc><lastmod>2022-04-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/post/</loc><lastmod>2022-04-14T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -29,6 +27,8 @@
     <loc>https://logconference.github.io/program-committee/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/reviews/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/schedule-keynotes/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/schedule-orals/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -123,8 +123,6 @@
     <loc>https://logconference.github.io/author/razvan-pascanu/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/regina-barzilay/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://logconference.github.io/schedule-keynotes/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/shuiwang-ji/</loc><changefreq>weekly</changefreq></url>
   <url>
