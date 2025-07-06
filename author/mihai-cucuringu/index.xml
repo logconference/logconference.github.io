@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mihai Cucuringu | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/mihai-cucuringu/</link>
+      <atom:link href="https://logconference.github.io/author/mihai-cucuringu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mihai Cucuringu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/mihai-cucuringu/avatar%20copy_huca6b7c45f231478e5954d55a4963bd0d_154734_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Mihai Cucuringu</title>
+      <link>https://logconference.github.io/author/mihai-cucuringu/</link>
+    </image>
+    
+  </channel>
+</rss>
