@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeongwhan Choi | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/jeongwhan-choi/</link>
+      <atom:link href="https://logconference.github.io/author/jeongwhan-choi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jeongwhan Choi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/jeongwhan-choi/avatar_hufe9cd5f956e1d2bcab11841493105a0d_131122_270x270_fill_q75_lanczos_center.JPG</url>
+      <title>Jeongwhan Choi</title>
+      <link>https://logconference.github.io/author/jeongwhan-choi/</link>
+    </image>
+    
+  </channel>
+</rss>

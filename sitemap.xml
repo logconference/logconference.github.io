@@ -48,6 +48,8 @@
   <url>
     <loc>https://logconference.github.io/author/alexandre-duval/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://logconference.github.io/author/ali-parviz/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://logconference.github.io/author/andreas-loukas/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/andreea-deac/</loc><changefreq>weekly</changefreq></url>
@@ -66,6 +68,10 @@
   <url>
     <loc>https://logconference.github.io/author/christopher-morris/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://logconference.github.io/author/daniel-herbst/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/daniele-malitesta/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://logconference.github.io/author/derek-lim/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/djork-arne-clevert/</loc><changefreq>weekly</changefreq></url>
@@ -73,6 +79,14 @@
     <loc>https://logconference.github.io/author/dominique-beaini/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/ellen-vitercik/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/fang-sun/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/federico-errica/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/florian-grotschla/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/francesco-ferrini/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/gabriele-corso/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -84,9 +98,15 @@
   <url>
     <loc>https://logconference.github.io/author/hannes-stark/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://logconference.github.io/author/harlin-lee/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://logconference.github.io/author/ilia-igashov/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/iulia-duta/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/jeongwhan-choi/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/jian-kang/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/jian-tang/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -110,7 +130,11 @@
   <url>
     <loc>https://logconference.github.io/author/luis-muller/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://logconference.github.io/author/maria-shaukat/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://logconference.github.io/author/marinka-zitnik/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/matheo-angelo-pereira-dantas/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/mathieu-alain/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -137,6 +161,8 @@
     <loc>https://logconference.github.io/author/sofia-bourhim/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/soledad-villar/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/srikar-mutnuri/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/stefanie-jegelka/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -166,6 +192,8 @@
   <url>
     <loc>https://logconference.github.io/author/yanqiao-zhu/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://logconference.github.io/author/yixuan-he/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://logconference.github.io/author/yu-he/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://logconference.github.io/author/yuanqi-du/</loc><changefreq>weekly</changefreq></url>
@@ -174,4 +202,6 @@
   <url>
     <loc>https://logconference.github.io/author/yusu-wang/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://logconference.github.io/author/zachary-ulissi/</loc><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://logconference.github.io/author/zachary-ulissi/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://logconference.github.io/author/zecheng-zhang/</loc><changefreq>weekly</changefreq></url></urlset>

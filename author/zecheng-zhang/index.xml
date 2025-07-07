@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zecheng Zhang | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/zecheng-zhang/</link>
+      <atom:link href="https://logconference.github.io/author/zecheng-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zecheng Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/zecheng-zhang/avatar_hufac30630a9bf1556e0e68e243bce7928_146225_270x270_fill_lanczos_center_3.png</url>
+      <title>Zecheng Zhang</title>
+      <link>https://logconference.github.io/author/zecheng-zhang/</link>
+    </image>
+    
+  </channel>
+</rss>
