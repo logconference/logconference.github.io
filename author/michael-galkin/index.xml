@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Galkin | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/michael-galkin/</link>
+      <atom:link href="https://logconference.github.io/author/michael-galkin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael Galkin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/michael-galkin/avatar_hu0b247ed5abf9c12142d5cc63e612712c_96573_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Michael Galkin</title>
+      <link>https://logconference.github.io/author/michael-galkin/</link>
+    </image>
+    
+  </channel>
+</rss>

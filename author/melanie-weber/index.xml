@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Melanie Weber | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/melanie-weber/</link>
+      <atom:link href="https://logconference.github.io/author/melanie-weber/index.xml" rel="self" type="application/rss+xml" />
+    <description>Melanie Weber</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/melanie-weber/avatar_hu1157a21be3b495006744b14a072517ac_12855_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Melanie Weber</title>
+      <link>https://logconference.github.io/author/melanie-weber/</link>
+    </image>
+    
+  </channel>
+</rss>
