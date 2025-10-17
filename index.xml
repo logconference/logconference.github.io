@@ -44,6 +44,14 @@
     
     <item>
       <title></title>
+      <link>https://logconference.github.io/accommodation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://logconference.github.io/accommodation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://logconference.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://logconference.github.io/admin/config.yml</guid>
@@ -111,6 +119,14 @@
       <link>https://logconference.github.io/program-committee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://logconference.github.io/program-committee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://logconference.github.io/register/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://logconference.github.io/register/</guid>
       <description></description>
     </item>
     
