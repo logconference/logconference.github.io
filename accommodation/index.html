@@ -787,74 +787,92 @@
 <p>Special <em>discounted group rates</em> have been arranged at the hotels listed below.
 Please note that the <strong>cut-off date for the bookings is November 10, 2025</strong>.</p>
 <hr>
+<style>
+.hotel-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.hotel-block img {
+  width: 300px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.hotel-block div {
+  line-height: 1.6;
+}
+/* 📱 모바일 대응 */
+@media (max-width: 768px) {
+  .hotel-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hotel-block img {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+</style>
 <h3 id="hampton-inn--phoenixglendalepeoria">Hampton Inn – Phoenix/Glendale/Peoria</h3>
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
-  <img src="hampton_inn.jpg" alt="Hampton Inn Phoenix Glendale Peoria" style="width: 300px; border-radius: 10px;">
+<div class="hotel-block">
+  <img src="hampton_inn.jpg" alt="Hampton Inn Phoenix Glendale Peoria">
   <div>
-    <div style="line-height: 1.6;">
-      📍 8408 W Paradise Ln, Peoria, AZ 85382<br>
-      🔗 <a href="https://urldefense.com/v3/__https:/www.hilton.com/en/book/reservation/deeplink/?ctyhocn=PHXGDHX&groupCode=CHH919&arrivaldate=2025-12-09&departuredate=2025-12-13&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT__;!!IKRxdwAv5BmarQ!aTA2fkRN2upDIUeLJmGGNcn1gkRjfRQttFqNRKjKKWm_g9IIxovXG3rXaGkDq8BbhhtCkVbVQeLC9UoSdcvc67MvR8-m_8gA2A$" target="_blank">Reservation link</a>
-    </div>
+    📍 8408 W Paradise Ln, Peoria, AZ 85382<br>
+    🔗 <a href="https://urldefense.com/v3/__https:/www.hilton.com/en/book/reservation/deeplink/?ctyhocn=PHXGDHX&groupCode=CHH919&arrivaldate=2025-12-09&departuredate=2025-12-13&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT__;!!IKRxdwAv5BmarQ!aTA2fkRN2upDIUeLJmGGNcn1gkRjfRQttFqNRKjKKWm_g9IIxovXG3rXaGkDq8BbhhtCkVbVQeLC9UoSdcvc67MvR8-m_8gA2A$" target="_blank">Reservation link</a>
   </div>
 </div>
 <hr>
 <h3 id="hilton-garden-inn--phoenix-downtown">Hilton Garden Inn – Phoenix Downtown</h3>
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
-  <img src="hilton.png" alt="Hilton Garden Inn Phoenix Downtown" style="width: 300px; border-radius: 10px;">
+<div class="hotel-block">
+  <img src="hilton.png" alt="Hilton Garden Inn Phoenix Downtown">
   <div>
-    <div style="line-height: 1.6;">
-      📍 15 E Monroe St, Phoenix, AZ 85004<br>
-      🔗 <a href="https://urldefense.com/v3/__https:/www.hilton.com/en/attend-my-event/phxdogi-asu12-5d4081d6-750c-46fa-9b1f-1980a97a1b46__;!!IKRxdwAv5BmarQ!aAJYfXnHdKaSaOe4d419T4xnh36ZPjeI3OkY7Uyrk3hprWAgKpBDMplb_Omy0Av58eqgxJ_xbQ2SPznjbzpCvQF8fJEtbd42PA$" target="_blank">Reservation link</a>
-    </div>
+    📍 15 E Monroe St, Phoenix, AZ 85004<br>
+    🔗 <a href="https://urldefense.com/v3/__https:/www.hilton.com/en/attend-my-event/phxdogi-asu12-5d4081d6-750c-46fa-9b1f-1980a97a1b46__;!!IKRxdwAv5BmarQ!aAJYfXnHdKaSaOe4d419T4xnh36ZPjeI3OkY7Uyrk3hprWAgKpBDMplb_Omy0Av58eqgxJ_xbQ2SPznjbzpCvQF8fJEtbd42PA$" target="_blank">Reservation link</a>
   </div>
 </div>
 <hr>
 <h3 id="westin--phoenix">Westin – Phoenix</h3>
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
-  <img src="westin.jpeg" alt="The Westin Phoenix Downtown" style="width: 300px; border-radius: 10px;">
+<div class="hotel-block">
+  <img src="westin.jpeg" alt="The Westin Phoenix Downtown">
   <div>
-    <div style="line-height: 1.6;">
-      📍 222 N Central Ave, Phoenix, AZ 85004<br>
-      🔗 <a href="https://book.passkey.com/go/TheArizonaBoardofRegents" target="_blank">Reservation link</a>
-    </div>
+    📍 222 N Central Ave, Phoenix, AZ 85004<br>
+    🔗 <a href="https://book.passkey.com/go/TheArizonaBoardofRegents" target="_blank">Reservation link</a>
   </div>
 </div>
 <hr>
 <h3 id="courtyard--phoenix-north">Courtyard – Phoenix North</h3>
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
-  <img src="courtyard.jpeg" alt="Courtyard Phoenix North" style="width: 280px; border-radius: 10px;">
+<div class="hotel-block">
+  <img src="courtyard.jpeg" alt="Courtyard Phoenix North">
   <div>
-    <div style="line-height: 1.6;">
-      📍 9631 N Black Cyn Hwy, Phoenix, AZ 85021<br>
-      🔗 <a href="https://urldefense.com/v3/__https:/www.marriott.com/event-reservations/reservation-link.mi?id=1760476020795&key=GRP&dtt=true&app=resvlink__;!!IKRxdwAv5BmarQ!bMcthJjOllteaNST6XkjmSHxXZJQYcI6xvfUZnSexpArhjL80c9eogqFRdU1BrNcV-MM4gbH8RwQ8geXIXreUCut7rMDPA$" target="_blank">Reservation link</a>
-    </div>
+    📍 9631 N Black Cyn Hwy, Phoenix, AZ 85021<br>
+    🔗 <a href="https://urldefense.com/v3/__https:/www.marriott.com/event-reservations/reservation-link.mi?id=1760476020795&key=GRP&dtt=true&app=resvlink__;!!IKRxdwAv5BmarQ!bMcthJjOllteaNST6XkjmSHxXZJQYcI6xvfUZnSexpArhjL80c9eogqFRdU1BrNcV-MM4gbH8RwQ8geXIXreUCut7rMDPA$" target="_blank">Reservation link</a>
   </div>
 </div>
 <hr>
 <h3 id="hampton-inn-and-suites--phoenix-downtown">Hampton Inn and Suites – Phoenix Downtown</h3>
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
-  <img src="hampton_inn_suites.png" alt="Hampton Inn and Suites Phoenix Downtown" style="width: 280px; border-radius: 10px;">
+<div class="hotel-block">
+  <img src="hampton_inn_suites.png" alt="Hampton Inn and Suites Phoenix Downtown">
   <div>
-    <div style="line-height: 1.6;">
-      📍 77 E Polk St, Phoenix, AZ 85004<br>
-      🔗 <a href="https://group.hamptoninn.com/pnirrq" target="_blank">Reservation link</a>
-    </div>
+    📍 77 E Polk St, Phoenix, AZ 85004<br>
+    🔗 <a href="https://group.hamptoninn.com/pnirrq" target="_blank">Reservation link</a>
   </div>
 </div>
 <hr>
 <h3 id="hyatt-place--phoenixdowntown">Hyatt Place – Phoenix/Downtown</h3>
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
-  <img src="hyatt.jpg" alt="Hyatt Place Phoenix Downtown" style="width: 280px; border-radius: 10px;">
+<div class="hotel-block">
+  <img src="hyatt.jpg" alt="Hyatt Place Phoenix Downtown">
   <div>
-    <!-- <h4>Hyatt Place – Phoenix/Downtown</h4> -->
-    <div style="line-height: 1.6;">
-      📍 150 W Adams St, Phoenix, AZ 85003<br>
-      🔗 <a href="https://www.hyatt.com/events/en-US/group-booking/PHXZD/G-ASU1 " target="_blank">Reservation link</a>
-    </div>
+    📍 150 W Adams St, Phoenix, AZ 85003<br>
+    🔗 <a href="https://www.hyatt.com/events/en-US/group-booking/PHXZD/G-ASU1" target="_blank">Reservation link</a>
   </div>
 </div>
 <hr>
-<p>For other questions, please contact us at <a href="mailto:logconference@googlegroups.com">logconference@googlegroups.com</a></p>
+<p>For other questions, please contact us at<br>
+📧 <a href="mailto:logconference@googlegroups.com">logconference@googlegroups.com</a></p>
 
   </div>
 
