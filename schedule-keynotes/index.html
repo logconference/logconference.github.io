@@ -473,6 +473,44 @@
 
           
           <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Calls</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/cfp"><span>Call for Papers</span></a>
+              
+                <a class="dropdown-item" href="/call-for-tutorials"><span>Call for Tutorials</span></a>
+              
+                <a class="dropdown-item" href="/sponsors"><span>Call for Sponsors</span></a>
+              
+                <a class="dropdown-item" href="/call-for-reviewers"><span>Call for Reviewers</span></a>
+              
+                <a class="dropdown-item" href="/call-for-meetups"><span>Call for Local Meetups</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Program</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/conference-program"><span>Conference Program</span></a>
+              
+                <a class="dropdown-item" href="/schedule-keynotes"><span>Keynote</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Attend</span><span class="caret"></span>
             </a>
             <div class="dropdown-menu">
@@ -556,28 +594,6 @@
 
           <li class="nav-item">
             <a class="nav-link " href="/#sponsors"><span>Sponsors</span></a>
-          </li>
-
-          
-          
-
-          
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Calls</span><span class="caret"></span>
-            </a>
-            <div class="dropdown-menu">
-              
-                <a class="dropdown-item" href="/cfp"><span>Call for Papers</span></a>
-              
-                <a class="dropdown-item" href="/call-for-tutorials"><span>Call for Tutorials</span></a>
-              
-                <a class="dropdown-item" href="/sponsors"><span>Call for Sponsors</span></a>
-              
-                <a class="dropdown-item" href="/call-for-reviewers"><span>Call for Reviewers</span></a>
-              
-                <a class="dropdown-item" href="/call-for-meetups"><span>Call for Local Meetups</span></a>
-              
-            </div>
           </li>
 
           
@@ -770,7 +786,7 @@
         
           <div class="section-heading col-12 mb-3 text-center">
             <h1 class="mb-0">Keynote Speakers</h1>
-            <p class="mt-1">Learning on Graphs Conference, 2024</p>
+            <p class="mt-1">Learning on Graphs Conference, 2025</p>
           </div>
         
       
@@ -792,22 +808,22 @@
     <li><a href="#general-schedule">General Schedule</a></li>
     <li><a href="#day-1----dec-10-2025">Day 1 &ndash; Dec 10, 2025</a>
       <ul>
-        <li><a href="#tba">TBA</a></li>
+        <li><a href="#title-tba">Title: TBA</a></li>
       </ul>
     </li>
-    <li><a href="#day-2----nov-27-2024">Day 2 &ndash; Nov 27, 2024</a>
+    <li><a href="#day-2----dec-11-2025">Day 2 &ndash; Dec 11, 2025</a>
       <ul>
-        <li><a href="#title-tbd">Title (TBD)</a></li>
+        <li><a href="#geometric-deep-learning-for-neural-artifacts-symmetry-aware-learning-across-trained-model-weights-internal-representations-and-gradients">Geometric Deep Learning for Neural Artifacts: Symmetry-Aware Learning across Trained Model Weights, Internal Representations, and Gradients</a></li>
       </ul>
     </li>
-    <li><a href="#day-3----nov-28-2024">Day 3 &ndash; Nov 28, 2024</a>
+    <li><a href="#day-3----dec-12-2025">Day 3 &ndash; Dec 12, 2025</a>
       <ul>
-        <li><a href="#integrating-large-language-models-and-graph-neural-networks">Integrating Large Language Models and Graph Neural Networks</a></li>
+        <li><a href="#title-tba-1">Title: TBA</a></li>
       </ul>
     </li>
-    <li><a href="#day-4----nov-29-2024">Day 4 &ndash; Nov 29, 2024</a>
+    <li><a href="#day-3----dec-12-2025-1">Day 3 &ndash; Dec 12, 2025</a>
       <ul>
-        <li><a href="#towards-rational-drug-design-with-alphafold-3">Towards Rational Drug Design with AlphaFold 3</a></li>
+        <li><a href="#title-tba-2">Title: TBA</a></li>
       </ul>
     </li>
   </ul>
@@ -816,24 +832,25 @@
 
 <h2 id="general-schedule">General Schedule</h2>
 <h2 id="day-1----dec-10-2025">Day 1 &ndash; Dec 10, 2025</h2>
-<h3 id="tba">TBA</h3>
-<p><strong>Speaker: Yusu Wang</strong></p>
-<p><strong>Abstract:</strong> Size (or length) generalization is a key challenge in neural algorithmic reasoning. Specifically, when can a neural model with bounded complexity generalize to problem instances of arbitrary size? This problem, known as size generalization, is a special case of out-of-distribution (OOD) generalization. In this talk, I will present three examples of achieving such size generalization by &ldquo;aligning&rdquo; the neural models with algorithmic structures. In particular, the first two (quick) examples will be on the simpler &ldquo;expressivity&rdquo; question, where the goal is to design neural models that are capable of size generalization to solve potentially hard problems at hand. The main part of the talk will focus on the third example which goes beyond &ldquo;expressivity&rdquo; and tackles a much more challenging question of certifying, provably, that a trained model generalizes to input of arbitrary sizes. More precisely, we consider the problem of predicting the output of K-step Bellman-Ford (BF) procedure for computing graph shortest path. It has been observed in the literature that a special family of graph neural networks (which we refer to as BF-GNN) has a natural alignment with the BF procedure. Surprisingly, we show that we can construct a set of only a constant number of small graphs, such that if the neural Bellman-Ford model (even when over-parameterized) has low loss over these graphs, then this model will probably generalize to arbitrary graphs with positive weights. To the best of our knowledge, this is the first provable (and practical) generalization certificate for neural approximation of complex tasks. This result also has interesting implications on training neural algorithmic modules.</p>
-<p><strong>Bio:</strong> Yusu Wang is Professor in the Halicioglu Data Science Institute (HDSI) at University of California, San Diego, where she also serves as the Director for the NSF National AI Institute TILOS. Prior to joining UCSD, she was Professor in the Computer Science and Engineering Department at the Ohio State University. She obtained her PhD degree from Duke University in 2004 where she received the Best PhD Dissertation Award in the CS Department. From 2004-2005, she was a post-doctoral fellow at Stanford University. Yusu Wang primarily works in geometric and topological data analysis (with a textbook on Computational Topology for Data Anaysis), geometric deep learning and representation learning. She received DOE Early Career Principal Investigator Award in 2006, and NSF Career Award in 2008. She is on the editorial boards for SIAM Journal on Computing (SICOMP) and Journal of Computational Geometry (JoCG). She is a member of the AATRN Advisory Committee and was on the Computational Geometry Steering Committee. She also serves in the SIGACT CATCS committee and AWM Meetings Committee.</p>
-<h2 id="day-2----nov-27-2024">Day 2 &ndash; Nov 27, 2024</h2>
-<h3 id="title-tbd">Title (TBD)</h3>
-<p><strong>Speaker:</strong> Zachary Ulissi</p>
+<h3 id="title-tba">Title: TBA</h3>
+<p><strong>Speaker:</strong> Aditi Krishnapriyan (UC Berkeley)</p>
 <p><strong>Abstract:</strong> TBA</p>
-<h2 id="day-3----nov-28-2024">Day 3 &ndash; Nov 28, 2024</h2>
-<h3 id="integrating-large-language-models-and-graph-neural-networks">Integrating Large Language Models and Graph Neural Networks</h3>
-<p><strong>Speaker:</strong> Xavier Bresson</p>
-<p><strong>Abstract:</strong> Pre-trained language models on large-scale datasets have revolutionized text-based applications, enabling new capabilities in natural language processing. When documents are connected, they form a text-attributed graph (TAG), like the Internet, Wikipedia, social networks, scientific literature networks, biological networks, scene graphs, and knowledge graphs. Key applications for TAGs include recommendation (web), classification (node, link, graph), text- and visual-based reasoning, and retrieval-augmented generation (RAG). In this talk, I will introduce two approaches that integrate Large Language Models (LLMs) with Graph Neural Networks (GNNs). The first method demonstrates how LLMs’ reasoning capabilities can enhance TAG node features. The second approach introduces a pioneering technique called GraphRAG, which grounds LLM responses in a relevant sub-graph structure. This scalable technique regularizes the language model, significantly reducing incorrect responses, a.k.a. hallucinations.</p>
-<p><strong>Bio:</strong>  Xavier Bresson is an Associate Professor in the Department of Computer Science at the National University of Singapore (NUS). His research focuses on Graph Deep Learning, a new framework that combines graph theory and neural networks to tackle complex data domains. He received the USD 2M NRF Fellowship, the largest individual grant in Singapore, to develop this new framework. He was also awarded several research grants in the U.S. and Hong Kong. He co-authored one of the most cited works in this domain (10th most cited paper at NeurIPS) and has significantly contributed to mature these emerging techniques. He has organized several conferences, workshops and tutorials on graph deep learning such as the IPAM'23 workshops on &ldquo;Learning and Emergence in Molecular Systems&rdquo;, the IPAM'23'21 workshops on &ldquo;Deep Learning and Combinatorial Optimization&rdquo;, the MLSys'21 workshop on &ldquo;Graph Neural Networks and Systems&rdquo;, the IPAM'19 and IPAM'18 workshops on &ldquo;New Deep Learning Techniques&rdquo;, and the NeurIPS'17, CVPR'17 and SIAM'18 tutorials on &ldquo;Geometric Deep Learning on Graphs and Manifolds&rdquo;. He has been a regular invited speaker at universities and companies to share his work. He has also been a speaker at the NeurIPS'22, KDD'21’23, AAAI'21 and ICML'20 workshops on &ldquo;Graph Representation Learning&rdquo;, and the ICLR'20 workshop on &ldquo;Deep Neural Models and Differential Equations&rdquo;. He has taught undergraduate and graduate courses on Deep Learning and Graph Neural Networks since 2014.</p>
-<h2 id="day-4----nov-29-2024">Day 4 &ndash; Nov 29, 2024</h2>
-<h3 id="towards-rational-drug-design-with-alphafold-3">Towards Rational Drug Design with AlphaFold 3</h3>
-<p><strong>Speaker:</strong> Alden Hung</p>
+<p><strong>Bio:</strong> Aditi Krishnapriyan is an Assistant Professor in the Department of Chemical Engineering and EECS at UC Berkeley. She is also a member of Berkeley AI Research (BAIR), part of the AI+Science group in EECS and the theory group in Chemical Engineering, and a faculty scientist in the Applied Mathematics and Computational Research division at LBNL. She is interested in developing methods in machine learning that are driven by the distinct challenges and opportunities in the natural sciences, with particular interest in physics-inspired machine learning methods. Some areas of exploration include general learning strategies exploring the relevance of physical inductive biases and ML models for scientific problems, the advantages that ML can bring to classical physics-based numerical solvers (such as through end-to-end differentiable frameworks and implicit layers), and better learning strategies for distribution shifts in the physical sciences. These methods are informed by and grounded in applications in atomistic and continuum problems, including fluid mechanics, molecular dynamics, and other related areas. This work also includes interfacing with other fields including numerical analysis, dynamical systems theory, quantum mechanics, computational geometry, optimization, and category theory.</p>
+<h2 id="day-2----dec-11-2025">Day 2 &ndash; Dec 11, 2025</h2>
+<h3 id="geometric-deep-learning-for-neural-artifacts-symmetry-aware-learning-across-trained-model-weights-internal-representations-and-gradients">Geometric Deep Learning for Neural Artifacts: Symmetry-Aware Learning across Trained Model Weights, Internal Representations, and Gradients</h3>
+<p><strong>Speaker:</strong> Haggai Maron (Technion / NVIDIA)</p>
+<p><strong>Abstract:</strong> The explosive growth of deep learning has created fundamentally new data modalities: the mathematical byproducts of neural network development. Practitioners generate vast quantities of valuable but underutilized data daily—trained model weights, internal representations during inference, and gradients during training. These byproducts, which we term neural artifacts, encode crucial information about model behavior, optimization dynamics, and internal computations. Applying machine learning directly to neural artifacts holds transformative potential: learning on weight spaces could revolutionize model selection, editing, and generation; learning on internal representations could enable efficient hallucination detection and reliability analysis in large language models; learning on gradient spaces could transform optimization and interpretability. Yet existing methods capture only a fraction of this potential because they fail to account for the fundamental symmetries inherent to these data types. We argue that this rich symmetry structure necessitates tools from geometric and equivariant deep learning, and that deploying these tools has the potential to transform how we learn from neural artifacts and significantly impact the deep learning community as a whole. In this talk, I will present the general paradigm and four works advancing it: (1) Equivariant Architectures for Learning in Deep Weight Spaces (ICML 2023), establishing theoretical foundations for symmetry-aware weight space learning; (2) Graph Metanetworks (ICLR 2024), enabling unified, architecture-agnostic processing through computational graph representations; (3) GradMetaNets (NeurIPS 2025), designing symmetry-aware architectures for gradient data; and (4) Neural Message-Passing on Attention Graphs for Hallucination Detection, demonstrating how symmetry-aware methods enhance model reliability and interpretability.</p>
+<p><strong>Bio:</strong> Haggai Maron is an Assistant Professor and the Robert J. Shillman Fellow at the Faculty of Electrical and Computer Engineering at the Technion and a senior research scientist at NVIDIA Research at NVIDIA&rsquo;s lab in Tel Aviv. His primary research interest is in machine learning, with a focus on deep learning for structured data.</p>
+<h2 id="day-3----dec-12-2025">Day 3 &ndash; Dec 12, 2025</h2>
+<h3 id="title-tba-1">Title: TBA</h3>
+<p><strong>Speaker:</strong> Michael Galkin (Harvard)</p>
 <p><strong>Abstract:</strong> TBA</p>
-<p><strong>Bio:</strong> Dr. Alden Hung, a native of Taiwan, developed a passion for computer programming in high school, achieving recognition through multiple programming competition wins. After earning his medical degree in Taiwan, he pursued his interest in the brain further by completing a degree in System Neuroscience at Johns Hopkins University and a postdoctoral fellowship at the National Institute of Mental Health, NIH. Nine years ago, Dr. Hung transitioned from academia to Google DeepMind, applying his neuroscience expertise to advance deep learning and reinforcement learning. Currently, he is a principal ML research scientist at Isomorphic Labs, focusing on leveraging AI&rsquo;s potential to revolutionise drug discovery. Notably, he was a core contributor to AlphaFold 3.</p>
+<p><strong>Bio:</strong> Michael Galkin is a Research Scientist at Google Research in New York working on GNNs, generalization, and using structured representations for reasoning. His research includes works on graph transformers, geometric deep learning for life sciences and chip design, and efficient kernels for standard and equivariant GNNs.</p>
+<h2 id="day-3----dec-12-2025-1">Day 3 &ndash; Dec 12, 2025</h2>
+<h3 id="title-tba-2">Title: TBA</h3>
+<p><strong>Speaker:</strong>  Melanie Weber (Harvard)</p>
+<p><strong>Abstract:</strong> TBA</p>
+<p><strong>Bio:</strong> Melanie Weber is an Assistant Professor of Applied Mathematics and of Computer Science at Harvard, where she leads the Geometric Machine Learning Group. Her research focuses on utilizing geometric structure in data for the design of efficient Machine Learning and Optimization methods with provable guarantees. This AI Magazine article surveys Geometric Machine Learning, including her work within this area.</p>
 
   </div>
 
