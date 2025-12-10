@@ -808,217 +808,110 @@
 <center>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmnO0AoPlhEFwtj_dAw5VuFrNiYTSwAzdfZJsNohOLhRrKY8gpQWi0D2TvJ3W0Pg/pubhtml?gid=87443520&amp;single=false&amp;widget=true&amp;headers=false" style="border: 0" width="100%" height="700" scrolling="no"></iframe>
 </center>
-<!-- ---
-
+<hr>
 <details class="toc-inpage d-print-none  " open>
   <summary class="font-weight-bold">Table of Contents</summary>
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#virtual-nodes-go-temporal">Virtual Nodes Go Temporal</a></li>
+    <li><a href="#efficient-neural-common-neighbor-for-temporal-graph-link-prediction">Efficient Neural Common Neighbor for Temporal Graph Link Prediction</a></li>
+    <li><a href="#generalized-degrees-for-scalable-discrete-time-dynamic-graph-generation">Generalized Degrees for Scalable Discrete Time Dynamic Graph Generation</a></li>
+    <li><a href="#tango-graph-neural-dynamics-via-learned-energy-and-tangential-flows">TANGO: Graph Neural Dynamics via Learned Energy and Tangential Flows</a></li>
+    <li><a href="#short-range-oversquashing">Short-Range Oversquashing</a></li>
+    <li><a href="#learning-kronecker-structured-graphs-from-smooth-signals">Learning Kronecker-Structured Graphs from Smooth Signals</a></li>
+    <li><a href="#less-is-more-using-buffer-nodes-to-reduce-excessive-majority-node-influence-in-class-imbalance-graphs">Less is More: Using Buffer Nodes to Reduce Excessive Majority Node Influence in Class Imbalance Graphs</a></li>
+    <li><a href="#cross-domain-graph-anomaly-detection-via-test-time-training-with-homophily-guided-self-supervision">Cross-Domain Graph Anomaly Detection via Test-Time Training with Homophily-Guided Self-Supervision</a></li>
+    <li><a href="#differentiable-community-detection-with-graph-neural-networks-and-stochastic-block-models">Differentiable Community Detection with Graph Neural Networks and Stochastic Block Models</a></li>
+    <li><a href="#exploring-intrinsic-structures-of-hyperedges-as-point-clouds">Exploring Intrinsic Structures of Hyperedges as Point Clouds</a></li>
+    <li><a href="#one-model-any-conjunctive-query-graph-neural-networks-for-answering-queries-over-incomplete-knowledge-graphs">One Model, Any Conjunctive Query: Graph Neural Networks for Answering Queries over Incomplete Knowledge Graphs</a></li>
+    <li><a href="#gl-equivariant-metanetworks-for-learning-on-low-rank-weight-spaces">GL Equivariant Metanetworks for Learning on Low Rank Weight Spaces</a></li>
+    <li><a href="#position-beyond-euclidean--foundation-models-should-embrace-non-euclidean-geometries">Position: Beyond Euclidean – Foundation Models Should Embrace Non-Euclidean Geometries</a></li>
+  </ul>
+</nav>
 </details>
 
-
-
-## Not too little, not too much: a theoretical analysis of graph (over)smoothing
-
-**Authors:** Nicolas Keriven
-
-**Date:** December 9, 2022
-
-**Time slot:** 17:00 - 17:20 (GMT)
-
-**Abstract:**
-We analyze graph smoothing with \emph{mean aggregation}, where each node successively receives the average of the features of its neighbors. Indeed, it has been observed that Graph Neural Networks (GNNs), which generally follow some variant of Message-Passing (MP) with repeated aggregation, may be subject to the \emph{oversmoothing} phenomenon: by performing too many rounds of MP, the node features tend to converge to a non-informative limit. At the other end of the spectrum, it is intuitively obvious that \emph{some} MP rounds are necessary, but existing analyses do not exhibit both phenomena at once. In this paper, we consider simplified linear GNNs, and rigorously analyze two examples of random graphs for which a finite number of mean aggregation steps provably improves the learning performance, before oversmoothing kicks in. We identify two key phenomena: graph smoothing shrinks non-principal directions in the data faster than principal ones, which is useful for regression, and shrinks nodes within communities faster than they collapse together, which improves 
-Classification.
-
-**OpenReview:** https://openreview.net/forum?id=KQNsbAmJEug
-
-
----
-
-
-## Neighborhood-aware Scalable Temporal Network Representation Learning
-
-**Authors:** Yuhong Luo, Pan Li
-
-**Date:** December 9, 2022
-
-**Time slot:** 17:20 - 17:40 ((GMT)
-
-**Abstract:**
-Temporal networks have been widely used to model real-world complex systems such as financial systems and e-commerce systems. In a temporal network, the joint neighborhood of a set of nodes often provides crucial structural information useful for predicting whether they may interact at a certain time. However, recent representation learning methods for temporal networks often fail to extract such information or depend on online construction of structural features, which is time-consuming. To address the issue, this work proposes Neighborhood-Aware Temporal network model (NAT). For each node in the network, NAT abandons the commonly-used one-single-vector-based representation while adopting a novel dictionary-type neighborhood representation. Such a dictionary representation records a downsampled set of the neighboring nodes as keys, and allows fast construction of structural features for a joint neighborhood of multiple nodes. We also design a dedicated data structure termed N-cache to support parallel access and update of those dictionary representations on GPUs. NAT gets evaluated over seven real-world large-scale temporal networks. NAT not only outperforms all cutting-edge baselines by averaged 1.2% and 4.2% in transductive and inductive link prediction accuracy, respectively, but also keeps scalable by achieving a speed-up of 4.1-76.7x against the baselines that adopt joint structural features and achieves a speed-up of 1.6-4.0x against the baselines that cannot adopt those features. The link to the code: https: //github.com/Graph-COM/Neighborhood-Aware-Temporal-Network.
-
-**OpenReview:** https://openreview.net/forum?id=EPUtNe7a9ta
-
----
-
-
-## A Generalist Neural Algorithmic Learner
-
-**Authors:** Borja Ibarz, Vitaly Kurin, George Papamakarios, Kyriacos Nikiforou, Mehdi Bennani, Róbert Csordás, Andrew Joseph Dudzik, Matko Bošnjak, Alex Vitvitskyi, Yulia Rubanova, Andreea Deac, Beatrice Bevilacqua, Yaroslav Ganin, Charles Blundell, Petar Veličković
-
-**Date:**  December 9, 2022
-
-**Time slot:** 17:40 - 18:00 (GMT)
-
-**Abstract:**
-The cornerstone of neural algorithmic reasoning is the ability to solve algorithmic tasks, especially in a way that generalises out of distribution. While recent years have seen a surge in methodological improvements in this area, they mostly focused on building specialist models. Specialist models are capable of learning to neurally execute either only one algorithm or a collection of algorithms with identical control-flow backbone. Here, instead, we focus on constructing a generalist neural algorithmic learner---a single graph neural network processor capable of learning to execute a wide range of algorithms, such as sorting, searching, dynamic programming, path-finding and geometry. We leverage the CLRS benchmark to empirically show that, much like recent successes in the domain of perception, generalist algorithmic learners can be built by "incorporating" knowledge. That is, it is possible to effectively learn algorithms in a multi-task manner, so long as we can learn to execute them well in a single-task regime. Motivated by this, we present a series of improvements to the input representation, training regime and processor architecture over CLRS, improving average single-task performance by over 20% from prior art. We then conduct a thorough ablation of multi-task learners leveraging these improvements. Our results demonstrate a generalist learner that effectively incorporates knowledge captured by specialist models.
-
-**OpenReview:** https://openreview.net/forum?id=FebadKZf6Gd
-
----
-
-
-## GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks
-
-**Authors:** Chenhui Deng, Xiuyu Li, Zhuo Feng, Zhiru Zhang
-
-**Date:** December 10, 2022
-
-**Time slot:** 16:00 - 16:20 (GMT)
-
-**Abstract:**
-Graph neural networks (GNNs) have been increasingly deployed in various applications that involve learning on non-Euclidean data. However, recent studies show that GNNs are vulnerable to graph adversarial attacks. Although there are several defense methods to improve GNN robustness by eliminating adversarial components, they may also impair the underlying clean graph structure that contributes to GNN training. In addition, few of those defense models can scale to large graphs due to their high computational complexity and memory usage. In this paper, we propose GARNET, a scalable spectral method to boost the adversarial robustness of GNN models. GARNET first leverages weighted spectral embedding to construct a base graph, which is not only resistant to adversarial attacks but also contains critical (clean) graph structure for GNN training. Next, GARNET further refines the base graph by pruning additional uncritical edges based on probabilistic graphical model. GARNET has been evaluated on various datasets, including a large graph with millions of nodes. Our extensive experiment results show that GARNET achieves adversarial accuracy improvement and runtime speedup over state-of-the-art GNN (defense) models by up to 10.23% and 14.7×, respectively
-
-**OpenReview:** https://openreview.net/forum?id=kvwWjYQtmw
-
----
-
-
-## Transductive Linear Probing: A Novel Framework for Few-Shot Node Classification
-
-**Authors:** Zhen Tan, Song Wang, Kaize Ding, Jundong Li, huan liu
-
-**Date:** December 10, 2022
-
-**Time slot:** 16:20 - 16:40 (GMT)
-
-****Abstract:**** 
-Few-shot node classification is tasked to provide accurate predictions for nodes from novel classes with only few representative labeled nodes. This problem has drawn tremendous attention for its projection to prevailing real-world applications, such as product categorization for newly added commodity categories on an E-commerce platform with scarce records or diagnoses for rare diseases on a patient similarity graph. To tackle such challenging label scarcity issues in the non-Euclidean graph domain, meta-learning has become a successful and predominant paradigm.
-More recently, inspired by the development of graph self-supervised learning, transferring pretrained node embeddings for few-shot node classification could be a promising alternative to meta-learning but remains unexposed. In this work, we empirically demonstrate the potential of an alternative framework, \textit{Transductive Linear Probing}, that transfers pretrained node embeddings, which are learned from graph contrastive learning methods. We further extend the setting of few-shot node classification from standard fully supervised to a more realistic self-supervised setting, where meta-learning methods cannot be easily deployed due to the shortage of supervision from training classes. Surprisingly, even without any ground-truth labels, transductive linear probing with self-supervised graph contrastive pretraining can outperform the state-of-the-art fully supervised meta-learning based methods under the same protocol. We hope this work can shed new light on few-shot node classification problems and foster future research on learning from scarcely labeled instances on graphs.
-
-**OpenReview:** https://openreview.net/forum?id=dK8vOIBENa3
-
-
-
----
-
-
-
-## Shortest Path Networks for Graph Property Prediction
-
-**Authors:** Ralph Abboud, Radoslav Dimitrov, Ismail Ilkan Ceylan
-
-**Date:** December 10, 2022
-
-**Time slot:** 16:40 - 17:00 (GMT)
-
-**Abstract:**
-Most graph neural network models rely on a particular message passing paradigm, where the idea is to iteratively propagate node representations of a graph to each node in the direct neighborhood. While very prominent, this paradigm leads to information propagation bottlenecks, as information is repeatedly compressed at intermediary node representations, which causes loss of information, making it practically impossible to gather meaningful signals from distant nodes. To address this, we propose shortest path message passing neural networks, where the node representations of a graph are propagated to each node in the shortest path neighborhoods. In this setting, nodes can directly communicate between each other even if they are not neighbors, breaking the information bottleneck and hence leading to more adequately learned representations. Our framework generalizes message passing neural networks, resulting in a class of more expressive models, including some recent state-of-the-art models. We verify the capacity of a basic model of this framework on dedicated synthetic experiments, and on real-world graph classification and regression benchmarks, and obtain state-of-the art results.
-
-**OpenReview:** https://openreview.net/forum?id=mWzWvMxuFg1
-
-
----
-
-
-
-## Taxonomy of Benchmarks in Graph Representation Learning
-
-**Authors:** Renming Liu, Semih Cantürk, Frederik Wenkel, Sarah McGuire, Xinyi Wang, Anna Little, Leslie O'Bray, Michael Perlmutter, Bastian Rieck, Matthew Hirn, Guy Wolf, Ladislav Rampášek
-
-**Date:** December 11, 2022
-
-**Time slot:** 19:00-19:20 (GMT)
-
-**Abstract:**
-We provide a systematic approach for categorization of graph learning datasets based on their empirical properties.
-****Abstract:**** Graph Neural Networks (GNNs) extend the success of neural networks to graph-structured data by accounting for their intrinsic geometry. While extensive research has been done on developing GNN models with superior performance according to a collection of graph representation learning benchmarks, it is currently not well understood what aspects of a given model are probed by them. For example, to what extent do they test the ability of a model to leverage graph structure vs. node features? Here, we develop a principled approach to taxonomize benchmarking datasets according to a  that is based on how much GNN performance changes due to a collection of graph perturbations. Our data-driven analysis provides a deeper understanding of which benchmarking data characteristics are leveraged by GNNs. Consequently, our taxonomy can aid in selection and development of adequate graph benchmarks, and better informed evaluation of future GNN methods. Finally, our approach is designed to be extendable to multiple graph prediction task types and future datasets.
-
-**OpenReview:** https://openreview.net/forum?id=EM-Z3QFj8n
-
----
-
-
-## An Analysis of Virtual Nodes in Graph Neural Networks for Link Prediction
-
-**Authors:** EunJeong Hwang, Veronika Thost, Shib Sankar Dasgupta, Tengfei Ma
-
-**Date:** December 11, 2022
-
-**Time slot:** 19:20-19:40 (GMT)
-
-**Abstract:**
-It is well known that the graph classification performance of graph neural networks often improves by adding an artificial virtual node to the graphs, which is connected to all graph nodes. Surprisingly, the advantage of using virtual nodes has never been theoretically investigated, and their impact on other problems is still an open research question. In this paper, we adapt the concept of virtual nodes to link prediction, where we usually have much larger, often very sparse or dense, and overall more heterogeneous graphs. In particular, we use multiple virtual nodes per graph and graph-based clustering to determine the connections to the graph nodes. We also provide a detailed theoretical analysis. We conducted experiments over different datasets of the Open Graph Benchmark, analyze the results in detail, and show that virtual nodes may yield rather stable performance increases and sometimes considerably boost performance.
-
-**OpenReview:** https://openreview.net/forum?id=dI6KBKNRp7
-
----
-
-
-##  Graph Learning Indexer: A Contributor-Friendly and Metadata-Rich Platform for Graph Learning Benchmarks
-
-**Authors:** Jiaqi Ma, Xingjian Zhang, Hezheng Fan, Jin Huang, Tianyue Li, Ting Wei Li, Yiwen Tu, Chenshu Zhu, Qiaozhu Mei
-
-**Date:** December 11, 2022
-
-**Time slot:** 19:40-20:00 (GMT)
-
-**Abstract:**
-Establishing common benchmarks has been a critical driving force behind the success of modern machine learning techniques. As machine learning is being applied in broader domains and tasks, there is a need to establish more and diverse benchmarks to better reflect the reality of the application scenarios. For graph learning, an emerging field of machine learning, the need of establishing better benchmarks is particularly urgent. Towards this goal, we introduce Graph Learning Indexer (GLI), a benchmark curation platform for graph learning. In comparison to existing graph learning benchmark libraries, GLI highlights two novel design objectives. First, GLI is designed to incentivize \emph{dataset contributors}. In particular, we incorporate various measures to minimize the effort of contributing and maintaining a dataset, increase the usability of the contributed dataset, as well as encourage better credits to different contributors of the dataset. Second, GLI is designed to curate a knowledge base, instead of a collection, of benchmark datasets. For this purpose, we come up with multiple sources of meta information of the benchmark datasets in order to better characterize the datasets. 
-
-**OpenReview:** https://openreview.net/forum?id=ZBsxA6_gp3
-
-
----
-
-
-
-## You Can Have Better Graph Neural Networks by Not Training Weights at All: Finding Untrained GNNs Tickets
-
-**Authors:** Tianjin Huang, Tianlong Chen, Meng Fang, Vlado Menkovski, Jiaxu Zhao, Lu Yin, Yulong Pei, Decebal Constantin Mocanu, Zhangyang Wang, Mykola Pechenizkiy, Shiwei Liu
-
-**Date:** December 12, 2022
-
-
-**Time slot:** 18:00-18:20 (GMT)
-
-**Abstract:**
-Recent works have impressively demonstrated that there exists a subnetwork in randomly initialized convolutional neural networks (CNNs) that can match the performance of the fully trained dense networks at initialization, without any optimization of the weights of the network (i.e., untrained networks). However, the presence of such untrained subnetworks in graph neural networks (GNNs) still remains mysterious. In this paper we carry out the first-of-its-kind exploration of discovering matching untrained GNNs. With sparsity as the core tool, we can find untrained sparse subnetworks at the initialization, that can match the performance of fully trained dense GNNs. Besides this already encouraging finding of comparable performance, we show that the found untrained subnetworks can substantially mitigate the GNN over-smoothing problem, hence becoming a powerful tool to enable deeper GNNs without bells and whistles. We also observe that such sparse untrained subnetworks have appealing performance in out-of-distribution detection and robustness of input perturbations. We evaluate our method across widely-used GNN architectures on various popular datasets including the Open Graph Benchmark (OGB).
-
-**OpenReview:** https://openreview.net/forum?id=dF6aEW3_62O
-
-
----
-
-
-
-## Influence-Based Mini-Batching for Graph Neural Networks
-
-**Authors:** Johannes Gasteiger, Chendi Qian, Stephan Günnemann
-
-**Date:** December 12, 2022
-
-**Time slot:** 18:20-18:40 (GMT)
-
-**Abstract:**
-Using graph neural networks for large graphs is challenging since there is no clear way of constructing mini-batches. To solve this, previous methods have relied on sampling or graph clustering. While these approaches often lead to good training convergence, they introduce significant overhead due to expensive random data accesses and perform poorly during inference. In this work we instead focus on model behavior during inference. We theoretically model batch construction via maximizing the influence score of nodes on the outputs. This formulation leads to optimal approximation of the output when we do not have knowledge of the trained model. We call the resulting method influence-based mini-batching (IBMB). IBMB accelerates inference by up to 130x compared to previous methods that reach similar accuracy. Remarkably, with adaptive optimization and the right training schedule IBMB can also substantially accelerate training, thanks to precomputed batches and consecutive memory accesses. This results in up to 18x faster training per epoch and up to 17x faster convergence per runtime compared to previous methods.
-
-**OpenReview:** [https://openreview.net/forum?id=b9g0vxzYa_](https://openreview.net/forum?id=b9g0vxzYa_)
-
----
-
-
-## The Multi-Orbits Skew Spectrum: Boosting Permutation-Invariant Data Representations
-
-**Authors:** Armando Bellante, Martin Plávala, Alessandro Luongo
-
-**Date:** December 12, 2022
-
-**Time slot:** 18:40-19:00 (GMT)
-
-****Abstract:**** 
-We generalize the concept of skew spectrum of a graph, a group-theoretical permutation-invariant feature mapping. The skew spectrum considers adjacency matrices as functions over  and leverages Fourier transform and group-theoretical tools to extract features that are invariant under the group action. The main shortcoming of the previous result is that the skew spectrum only works for unlabeled graphs. The reason is that these graphs can be represented using matrices whose main diagonal contains zeros, meaning that there is only one set of elements that can permute among themselves (i.e., one orbit). However, the representations of more complex graphs (e.g., labeled graphs, multigraphs, or hypergraphs) have different sets of elements that can consistently permute on different orbits. In this work, we generalize the skew spectrum to the multiple orbits case. Our multi-orbits skew spectrum produces features invariant to such permutations and possibly informative of non-consistent ones. We show this method can improve the performances of models that learn on graphs by providing comparisons with single orbit representations and eigenvalues. Moreover, the theory is general enough to handle invariance under the action of any finite group on multiple orbits and has applications beyond the graph domain.
-
-**OpenReview:** https://openreview.net/forum?id=oqf2GRYTET -->
+<h2 id="virtual-nodes-go-temporal">Virtual Nodes Go Temporal</h2>
+<p><strong>Authors:</strong> Sofiane ENNADIR, Yassir Jedra, Oleg Smirnov, Lele Cao</p>
+<p><strong>Date:</strong> December 10, 2025</p>
+<p><strong>Time slot:</strong> 9:30-9:50 (MST)</p>
+<p><strong>Abstract:</strong>
+Learning representations of temporally evolving graphs, also known as Continuous-Time Dynamic Graphs (CTDGs), has gained considerable attention due to their ability to model a wide range of real-world phenomena. Recent efforts extend the well-established message-passing paradigm and Graph Neural Network (GNN) models, originally designed for static graphs, to account for the temporal dimension of dynamic graphs. Although these methods have shown promising results, they often inherit limitations from their static counterparts, particularly regarding the capture of long-range interactions. In static settings, adding Virtual Nodes (VNs) has proven effective in overcoming locality constraints and boosting performance. In this work, we conduct a theoretical analysis of the impact of VNs in CTDG-based models. Specifically, we introduce the concept of information flow, which examines how information propagates through a graph following an event. From this perspective, we highlight inherent limitations of existing CTDG-based approaches and demonstrate how adding VNs can address these constraints. Building on these insights, we propose k-TVNs, a framework that incorporates a set of fully connected VNs, each representing a distinct community within the graph. Through both theoretical investigation and empirical validation, we show that incorporating VNs substantially improves the performance of CTDG models.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=jdKtkiH9ze" target="_blank" rel="noopener">https://openreview.net/forum?id=jdKtkiH9ze</a></p>
+<hr>
+<h2 id="efficient-neural-common-neighbor-for-temporal-graph-link-prediction">Efficient Neural Common Neighbor for Temporal Graph Link Prediction</h2>
+<p><strong>Authors:</strong> Xiaohui Zhang, Yanbo Wang, Xiyuan Wang, Muhan Zhang</p>
+<p><strong>Date:</strong> December 10, 2025</p>
+<p><strong>Time slot:</strong> 9:50-10:10 (MST)</p>
+<p><strong>Abstract:</strong> Temporal graphs are widespread in real-world applications such as social networks, as well as trade and transportation networks. Predicting dynamic links within these evolving graphs is a key problem. Many memory-based methods use temporal interaction histories to generate node embeddings, which are then combined to predict links. However, these approaches primarily focus on individual node representations, often overlooking the inherently pairwise nature of link prediction. While some recent methods attempt to capture pairwise features, they tend to be limited by high computational complexity arising from repeated embedding calculations, making them unsuitable for large-scale datasets like the Temporal Graph Benchmark (TGB). To address the critical need for models that combine strong expressive power with high computational efficiency for link prediction on large temporal graphs, we propose Temporal Neural Common Neighbor (TNCN). Our model achieves this balance by adapting the powerful pairwise modeling principles of Neural Common Neighbor (NCN) to an efficient temporal architecture. TNCN improves upon NCN by efficiently preserving and updating temporal neighbor dictionaries for each node and by using multi-hop common neighbors to learn more expressive pairwise representations. TNCN achieves new state-of-the-art performance on Review from five large-scale real-world TGB datasets, 6 out of 7 datasets in the transductive setting and 3 out of 7 in the inductive setting on small- to medium-scale datasets. Additionally, TNCN demonstrates excellent scalability, outperforming prominent GNN baselines by up to 30.3 times in speed on large datasets. Our code is available at \href{https://github.com/GraphPKU/TNCN}{https://github.com/GraphPKU/TNCN}.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=ffsDVGiKRm" target="_blank" rel="noopener">https://openreview.net/forum?id=ffsDVGiKRm</a></p>
+<h2 id="generalized-degrees-for-scalable-discrete-time-dynamic-graph-generation">Generalized Degrees for Scalable Discrete Time Dynamic Graph Generation</h2>
+<p><strong>Authors:</strong> Kjartan van Driel, Leonardo Niccolò Ialongo, Pablo Andrés Astudillo, Stefan Thurner</p>
+<p><strong>Date:</strong> December 10, 2025</p>
+<p><strong>Time slot:</strong> 10:10-10:30 (MST)</p>
+<p><strong>Abstract:</strong> The evolution of many real-world systems is best described by dynamic graphs, whose statistical properties reflect the constraints of the system. When forecasting their dynamics, the goal is to generate a time series of graphs respecting these underlying constraints. Existing scalable dynamic graph learning methods, however, are designed for local tasks such as link prediction or node classification, and their independent, local predictions are ill-suited for graph generation. This limitation is particularly relevant for discrete time dynamic graphs, where coarse time resolution induces dependencies among edges within each snapshot. We propose using a generalized notion of degrees to model such dependencies directly, thereby shifting the focus from individual links to node dynamics. This approach bypasses the need to learn a sparse graph representation, and yields an inductive representation that enables the generation of large-scale discrete-time dynamic graphs.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=yVJXsCC8NY" target="_blank" rel="noopener">https://openreview.net/forum?id=yVJXsCC8NY</a></p>
+<h2 id="tango-graph-neural-dynamics-via-learned-energy-and-tangential-flows">TANGO: Graph Neural Dynamics via Learned Energy and Tangential Flows</h2>
+<p><strong>Authors:</strong> Moshe Eliasof, Eldad Haber, Carola-Bibiane Schönlieb</p>
+<p><strong>Date:</strong> December 11, 2025</p>
+<p><strong>Time slot:</strong> 9:00-9:20 (MST)</p>
+<p><strong>Abstract:</strong> We introduce TANGO, a dynamical-systems framework for graph representation learning that steers node features via a learned energy landscape. At its core is a learnable Lyapunov function whose gradient defines an energy-decreasing direction, guaranteeing stability and convergence. To preserve flexibility, we add a learned tangential message-passing component that evolves features along energy level sets. This orthogonal decomposition—gradient descent plus tangential evolution—enables effective signal propagation even in flat or ill-conditioned regions common in graph learning, mitigates oversquashing, and remains compatible with diverse GNN backbones. Empirically, TANGO achieves strong performance across node and graph classification and regression benchmarks, validating jointly learned energy functions and tangential flows.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=c3aN3wecSt" target="_blank" rel="noopener">https://openreview.net/forum?id=c3aN3wecSt</a></p>
+<h2 id="short-range-oversquashing">Short-Range Oversquashing</h2>
+<p><strong>Authors:</strong> Yaaqov Mishayev, Yonatan Sverdlov, Tal Amir, Nadav Dym</p>
+<p><strong>Date:</strong> December 11, 2025</p>
+<p><strong>Time slot:</strong> 9:20-9:40 (MST)</p>
+<p><strong>Abstract:</strong> Message Passing Neural Networks (MPNNs) are widely used for learning on graphs, but their ability to process long-range information is limited by the phenomenon of oversquashing. This limitation has led some researchers to advocate Graph Transformers as a better alternative, whereas others suggest that it can be mitigated within the MPNN framework, using virtual nodes or other rewiring techniques.</p>
+<p>In this work, we demonstrate that oversquashing is not limited to long-range tasks, but can also arise in short-range problems. This observation allows us to disentangle two distinct mechanisms underlying oversquashing: (1) the bottleneck phenomenon, which can arise even in low-range settings, and (2) the vanishing gradient phenomenon, which is closely associated with long-range tasks.</p>
+<p>We further show that the short-range bottleneck effect is not captured by existing explanations for oversquashing, and that adding virtual nodes does not resolve it. In contrast, transformers do succeed in such tasks, positioning them as the more compelling solution to oversquashing, compared to specialized MPNNs.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=rmX8Jamnyg" target="_blank" rel="noopener">https://openreview.net/forum?id=rmX8Jamnyg</a></p>
+<h2 id="learning-kronecker-structured-graphs-from-smooth-signals">Learning Kronecker-Structured Graphs from Smooth Signals</h2>
+<p><strong>Authors:</strong> Changhao Shi, Gal Mishne</p>
+<p><strong>Date:</strong> December 11, 2025</p>
+<p><strong>Time slot:</strong> 9:40-10:00 (MST)</p>
+<p><strong>Abstract:</strong> Graph learning, or network inference, is a prominent problem in graph signal processing (GSP). GSP generalizes the Fourier transform to non-Euclidean domains, and graph learning is pivotal to applying GSP when these domains are not known. With the recent prevalence of multi-way data, there has been growing interest in product graphs that naturally factorize dependencies across different ways. However, the types of graph products that can be learned are still limited for modeling diverse dependency structures. In this paper, we study the problem of learning a Kronecker-structured product graph from smooth signals. Unlike the more commonly used Cartesian product, the Kronecker product models dependencies in a more intricate, non-separable way, but posits harder constraints on the graph learning problem. To tackle this non-convex problem, we propose an alternating scheme to optimize each factor graph in turn and provide theoretical guarantees for its asymptotic convergence. We also modify the proposed algorithm to learn graphs of the strong product, a denser graph product that covers the Kronecker product. We conduct experiments on synthetic and real-world graphs and demonstrate our approach&rsquo;s efficacy and superior performance compared to existing methods.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=kuDtgSMEFn" target="_blank" rel="noopener">https://openreview.net/forum?id=kuDtgSMEFn</a></p>
+<h2 id="less-is-more-using-buffer-nodes-to-reduce-excessive-majority-node-influence-in-class-imbalance-graphs">Less is More: Using Buffer Nodes to Reduce Excessive Majority Node Influence in Class Imbalance Graphs</h2>
+<p><strong>Authors:</strong> Less is More: Using Buffer Nodes to Reduce Excessive Majority Node Influence in Class Imbalance Graphs</p>
+<p><strong>Date:</strong> December 11, 2025</p>
+<p><strong>Time slot:</strong> 14:30-14:50 (MST)</p>
+<p><strong>Abstract:</strong> Graph Neural Networks (GNNs), despite success in node classification, struggle with class-imbalanced graphs, leading to minority node misclassification. Existing methods that synthesize minority nodes often overlook how majority nodes propagate misleading information through majority-minority edges; our analysis confirms this negative impact. To address this, we propose BufferGraph, a framework that inserts buffer nodes on such edges. These nodes act as controlled bottlenecks to reduce excessive majority node influence. And we theoretically demonstrate they reduce minority node feature distortion. Experiments on five real-world datasets show BufferGraph improves accuracy by up to 2% over state-of-the-art methods, excelling in imbalanced settings and for minority classes with high heterophily. Code is available at \url{https://github.com/Persdre/BufferGraph}.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=6ikB5L1kzq" target="_blank" rel="noopener">https://openreview.net/forum?id=6ikB5L1kzq</a></p>
+<h2 id="cross-domain-graph-anomaly-detection-via-test-time-training-with-homophily-guided-self-supervision">Cross-Domain Graph Anomaly Detection via Test-Time Training with Homophily-Guided Self-Supervision</h2>
+<p><strong>Authors:</strong> Delaram Pirhayatifard, Arlei Silva</p>
+<p><strong>Date:</strong> December 11, 2025</p>
+<p><strong>Time slot:</strong> 14:50-15:10 (MST)</p>
+<p><strong>Abstract:</strong> Abstract: Graph Anomaly Detection (GAD) has demonstrated great effectiveness in identifying unusual patterns within graph-structured data. However, while labeled anomalies are often scarce in emerging applications, existing supervised GAD approaches are either ineffective or not applicable when moved across graph domains due to distribution shifts and heterogeneous feature spaces. To address these challenges, we present GADT3, a novel test-time training framework for cross-domain GAD. GADT3 combines supervised and self-supervised learning during training while adapting to a new domain during test time using only self-supervised learning by leveraging a homophily-based affinity score that captures domain-invariant properties of anomalies. Our framework introduces four key innovations to cross-domain GAD: an effective self-supervision scheme, an attention-based mechanism that dynamically learns edge importance weights during message passing, domain-specific encoders for handling heterogeneous features, and class-aware regularization to address imbalance. Experiments across multiple cross-domain settings demonstrate that GADT3 significantly outperforms existing approaches, achieving average improvements of over 8.2% in AUROC and AUPRC compared to the best competing model.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=sB3LqdOlNb" target="_blank" rel="noopener">https://openreview.net/forum?id=sB3LqdOlNb</a></p>
+<h2 id="differentiable-community-detection-with-graph-neural-networks-and-stochastic-block-models">Differentiable Community Detection with Graph Neural Networks and Stochastic Block Models</h2>
+<p><strong>Authors:</strong> William Arliss, W. Graham Mueller</p>
+<p><strong>Date:</strong> December 11, 2025</p>
+<p><strong>Time slot:</strong> 15:10-15:30 (MST)</p>
+<p><strong>Abstract:</strong> We propose a set of loss functions adapted from Stochastic Block Model (SBM) likelihood functions to train Graph Neural Networks (GNNs) for the task of unsupervised community detection. Identifying latent community structures is a prominent challenge for many graph applications. SBMs are classical models that describe the generating process of random graphs and are commonly used to infer community structure. The likelihood functions associated with SBMs are well-defined, differentiable, and measure the quality of inferred community partitions; this makes them particularly useful for unsupervised learning with GNNs. Our proposed loss functions are independent of any specific GNN architecture and demonstrate competitive or improved community detection performance against several alternatives. Evaluation is carried out on multiple architectures and datasets, offering a thorough empirical analysis of the state of community detection with GNNs.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=T1vdfm1THf" target="_blank" rel="noopener">https://openreview.net/forum?id=T1vdfm1THf</a></p>
+<h2 id="exploring-intrinsic-structures-of-hyperedges-as-point-clouds">Exploring Intrinsic Structures of Hyperedges as Point Clouds</h2>
+<p><strong>Authors:</strong> Lige Zhang, Dongmian Zou</p>
+<p><strong>Date:</strong> December 12, 2025</p>
+<p><strong>Time slot:</strong> 14:30-14:50 (MST)</p>
+<p><strong>Abstract:</strong> Hypergraph neural networks (HNNs) provide a powerful framework for modeling high-order relationships in complex data. However, existing approaches often overlook the intrinsic patterns carried by hyperedges. Some methods simplify a hyperedge as a fully connected subgraph or treat it as an intermediate node-like entity, which limits the expressivity of the resulting models and neglects the potentially rich information of hyperedges. In this work, we offer a new perspective for hypergraph modeling by modeling a hyperedge as a point cloud with learnable features. Building on this view, we present a novel Hypergraph Kernel Network (HypKN) framework for hypergraph representation learning, which fully exploits the intrinsic hypergraph structure. The core component in HypKN is a Kernel Attention Message Passing (KAMP) module, which mimics the classical convolution operation defined for non-Euclidean data structures and enjoys provable stability results. We evaluate HypKN on ten real-world and synthetic hypergraph datasets for node classification, where it consistently outperforms classical HNN baselines and achieves state-of-the-art performance on several benchmarks.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=CIYl0o3d5d" target="_blank" rel="noopener">https://openreview.net/forum?id=CIYl0o3d5d</a></p>
+<h2 id="one-model-any-conjunctive-query-graph-neural-networks-for-answering-queries-over-incomplete-knowledge-graphs">One Model, Any Conjunctive Query: Graph Neural Networks for Answering Queries over Incomplete Knowledge Graphs</h2>
+<p><strong>Authors:</strong> Krzysztof Olejniczak, Xingyue Huang, Mikhail Galkin, Ismail Ilkan Ceylan</p>
+<p><strong>Date:</strong> December 12, 2025</p>
+<p><strong>Time slot:</strong> 14:50-15:10 (MST)</p>
+<p><strong>Abstract:</strong> Motivated by the incompleteness of modern knowledge graphs, a new setup for query answering has emerged, where the goal is to predict answers that do not necessarily appear in the knowledge graph, but are present in its completion. In this paper, we formally introduce and study two query answering problems, namely, query answer classification and query answer retrieval. To solve these problems, we propose ANYCQ, a model that can classify answers to any conjunctive query on any knowledge graph. At the core of our framework lies a graph neural network trained using a reinforcement learning objective to answer Boolean queries. Trained only on simple, small instances, ANYCQ generalizes to large queries of arbitrary structure, reliably classifying and retrieving answers to queries that existing approaches fail to handle. This is empirically validated through our newly proposed, challenging benchmarks. Finally, we empirically show that ANYCQ can effectively transfer to completely novel knowledge graphs when equipped with an appropriate link prediction model, highlighting its potential for querying incomplete data.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=Fo2GLDelI1" target="_blank" rel="noopener">https://openreview.net/forum?id=Fo2GLDelI1</a></p>
+<h2 id="gl-equivariant-metanetworks-for-learning-on-low-rank-weight-spaces">GL Equivariant Metanetworks for Learning on Low Rank Weight Spaces</h2>
+<p><strong>Authors:</strong> Theo Putterman, Derek Lim, Yoav Gelberg, Michael M. Bronstein, Stefanie Jegelka, Haggai Maron</p>
+<p><strong>Date:</strong> December 12, 2025</p>
+<p><strong>Time slot:</strong> 15:10-15:30 (MST)</p>
+<p><strong>Abstract:</strong> Low-rank adaptations (LoRAs) have revolutionized the finetuning of large foundation models, enabling efficient adaptation even with limited computational resources. The resulting proliferation of LoRAs together with the recent advances of weight-space learning present exciting opportunities for applying machine learning techniques that take these low-rank weights themselves as inputs. In this paper, we investigate the potential of Learning on LoRAs (LoL), a setup where machine learning models learn and make predictions on datasets of LoRA weights. Motivated by previous weight-space learning works, we first identify the inherent parameter symmetries of our data &ndash; low-rank decompositions of weights &ndash; which differ significantly from the parameter symmetries of standard neural networks. To efficiently process LoRA weights, we develop several symmetry-aware invariant or equivariant LoL models. In diverse experiments, we show that our LoL architectures can process LoRA weights to predict CLIP scores, finetuning data attributes, finetuning data membership, and accuracy on downstream tasks. We also show that LoL models trained on LoRAs of one pretrained model can effectively generalize to LoRAs trained on other models from the same model family. As an example of the utility of LoL, our LoL models can accurately estimate CLIP scores of diffusion models and ARC-C test accuracy of LLMs over 50,000 times faster than standard evaluation. As part of this work, we finetuned and will release datasets of more than ten thousand text-to-image diffusion-model and language-model LoRAs.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=fHRRYBZAmS" target="_blank" rel="noopener">https://openreview.net/forum?id=fHRRYBZAmS</a></p>
+<h2 id="position-beyond-euclidean--foundation-models-should-embrace-non-euclidean-geometries">Position: Beyond Euclidean – Foundation Models Should Embrace Non-Euclidean Geometries</h2>
+<p><strong>Authors:</strong> Neil He, Jiahong Liu, Buze Zhang, Ngoc Bui, Ali Maatouk, Irwin King, Menglin Yang, Melanie Weber, Rex Ying</p>
+<p><strong>Date:</strong> December 12, 2025</p>
+<p><strong>Time slot:</strong> 15:30-15:50 (MST)</p>
+<p><strong>Abstract:</strong> In the era of foundation models and Large Language Models (LLMs), Euclidean space has been the de facto geometric setting for machine learning architectures. However, recent literature has demonstrated that this choice comes with fundamental limitations. At a large scale, real-world data often exhibits inherently non-Euclidean structures, such as multi-way relationships, hierarchies, symmetries, and non-isotropic scaling, in a variety of domains, such as languages, vision, and the natural sciences. It is challenging to effectively capture these structures within the constraints of Euclidean spaces. This position paper argues that moving beyond Euclidean geometry is not merely an optional enhancement but a necessity to maintain the scaling law for the next-generation of foundation models. By adopting these geometries, foundation models could more efficiently leverage the aforementioned structures. Task-aware adaptability that dynamically reconfigures embeddings to match the geometry of downstream applications could further enhance efficiency and expressivity. Our position is supported by a series of theoretical and empirical investigations of prevalent foundation models. Finally, we outline a roadmap for integrating non-Euclidean geometries into foundation models, including strategies for building geometric foundation models via fine-tuning, training from scratch, and hybrid approaches.</p>
+<p><strong>OpenReview:</strong> <a href="https://openreview.net/forum?id=WoK4o90lln" target="_blank" rel="noopener">https://openreview.net/forum?id=WoK4o90lln</a></p>
 
   </div>
 
