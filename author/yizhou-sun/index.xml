@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yizhou Sun | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/yizhou-sun/</link>
+      <atom:link href="https://logconference.github.io/author/yizhou-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yizhou Sun</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/yizhou-sun/avatar_hu55d6d3de8036e6383ac6bcea6aaa2b71_201653_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yizhou Sun</title>
+      <link>https://logconference.github.io/author/yizhou-sun/</link>
+    </image>
+    
+  </channel>
+</rss>

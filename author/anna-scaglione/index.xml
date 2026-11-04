@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anna Scaglione | Learning on Graphs Conference</title>
+    <link>https://logconference.github.io/author/anna-scaglione/</link>
+      <atom:link href="https://logconference.github.io/author/anna-scaglione/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anna Scaglione</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://logconference.github.io/author/anna-scaglione/avatar_huc3995f28b0b98b752ca2d75ddc9427d6_142172_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Anna Scaglione</title>
+      <link>https://logconference.github.io/author/anna-scaglione/</link>
+    </image>
+    
+  </channel>
+</rss>
