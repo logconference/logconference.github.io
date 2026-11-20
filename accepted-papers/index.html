@@ -1,0 +1,1442 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Learning on Graphs Conference Team" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://logconference.github.io/accepted-papers/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.d7dd5dd48663428d4a57541f2b83866b.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu189fa68429203f426dcffc0b3b1a2f13_39239_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu189fa68429203f426dcffc0b3b1a2f13_39239_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://logconference.github.io/accepted-papers/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@logconference" />
+    <meta property="twitter:creator" content="@logconference" />
+  
+  <meta property="og:site_name" content="Learning on Graphs Conference" />
+  <meta property="og:url" content="https://logconference.github.io/accepted-papers/" />
+  <meta property="og:title" content="Learning on Graphs Conference" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://logconference.github.io/media/logo_hud0fe5dab583aaa056b8094d898ea0f3c_37272_300x300_fit_lanczos_3.png" />
+    <meta property="twitter:image" content="https://logconference.github.io/media/logo_hud0fe5dab583aaa056b8094d898ea0f3c_37272_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Learning on Graphs Conference</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="688f12dfc655f54359b455fb94c944b3" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.d5094052a6270c81ab9495f4173f87a9.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hud0fe5dab583aaa056b8094d898ea0f3c_37272_0x70_resize_lanczos_3.png" alt="Learning on Graphs Conference"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hud0fe5dab583aaa056b8094d898ea0f3c_37272_0x70_resize_lanczos_3.png" alt="Learning on Graphs Conference"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#hero"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Calls</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/cfp"><span>Call for Papers</span></a>
+              
+                <a class="dropdown-item" href="/call-for-tutorials"><span>Call for Tutorials</span></a>
+              
+                <a class="dropdown-item" href="/sponsors"><span>Call for Sponsors</span></a>
+              
+                <a class="dropdown-item" href="/call-for-reviewers"><span>Call for Reviewers</span></a>
+              
+                <a class="dropdown-item" href="/call-for-meetups"><span>Call for Local Meetups</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Program</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/conference-program"><span>Conference Program</span></a>
+              
+                <a class="dropdown-item" href="/schedule-keynotes"><span>Keynote</span></a>
+              
+                <a class="dropdown-item" href="/schedule-tutorials"><span>Tutorials</span></a>
+              
+                <a class="dropdown-item" href="/accepted-papers"><span>Accepted Papers</span></a>
+              
+                <a class="dropdown-item" href="/#meetups"><span>Local Meetups</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Attend</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/register"><span>Register</span></a>
+              
+                <a class="dropdown-item" href="/venue"><span>Venue</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#sponsors"><span>Sponsors</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Organization</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/advisors"><span>Advisory Board</span></a>
+              
+                <a class="dropdown-item" href="/organization"><span>Organization Committee</span></a>
+              
+                <a class="dropdown-item" href="/pcs"><span>Program Chairs</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Pages</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/conduct"><span>Code of Conduct</span></a>
+              
+                <a class="dropdown-item" href="/dei"><span>DEI Statement</span></a>
+              
+                <a class="dropdown-item" href="/program-committee"><span>Program Committee</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Past</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="http://log2022.logconference.org"><span>LoG 2022</span></a>
+              
+                <a class="dropdown-item" href="http://log2023.logconference.org"><span>LoG 2023</span></a>
+              
+                <a class="dropdown-item" href="http://log2024.logconference.org"><span>LoG 2024</span></a>
+              
+                <a class="dropdown-item" href="http://log2025.logconference.org"><span>LoG 2025</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="papers" class="home-section wg-blank  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Accepted Papers</h1>
+            <p class="mt-1">Learning on Graphs Conference, 2026</p>
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <!-- This file is generated from the schedule sheet (Posters 1/2 tabs) and the TMLR track CSV. -->
+<figure><center>
+  <img src="logo_conf_below_512_512.png" width="20%"/>
+  <figcaption></figcaption>
+</center></figure>
+<details class="toc-inpage d-print-none  " open>
+  <summary class="font-weight-bold">Table of Contents</summary>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#main-track">Main Track</a>
+      <ul>
+        <li><a href="#oral-presentations-12">Oral Presentations (12)</a></li>
+        <li><a href="#posters-84">Posters (84)</a></li>
+      </ul>
+    </li>
+    <li><a href="#tmlr-track-12">TMLR Track (12)</a></li>
+  </ul>
+</nav>
+</details>
+
+<hr>
+<h2 id="main-track">Main Track</h2>
+<p>The accepted papers of the main track are also listed on <a href="https://openreview.net/group?id=logconference.io/LOG/2026/Conference#tab-accept-oral" target="_blank" rel="noopener"><strong>OpenReview</strong></a>.</p>
+<h3 id="oral-presentations-12">Oral Presentations (12)</h3>
+<ol>
+<li>
+<p><strong>Can Graph Learning Learn Circuits?</strong><br>
+<a href="https://openreview.net/forum?id=nDHn1wrq1p" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Disentangling Homophily and Rarity: Explaining Failure in Graph Neural Networks</strong><br>
+<a href="https://openreview.net/forum?id=CzRv5SLZKx" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Graph-to-Table Interfaces Control Relational Generalisation</strong><br>
+<a href="https://openreview.net/forum?id=BI6ebcblLa" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Inductive Graph Layout with Implicit Neural Fields</strong><br>
+<a href="https://openreview.net/forum?id=FfW4Y8vYy3" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>On the Expressive Power of Implicit Line-Graph Higher-Order Weisfeiler-Leman</strong><br>
+<a href="https://openreview.net/forum?id=ikWGxwM66F" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>PISA: Prioritized Invariant Subgraph Aggregation for Out-of-Distribution Generalization on Graphs</strong><br>
+<a href="https://openreview.net/forum?id=ytHiEH4uzD" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Probably Approximately Guaranteed Algorithms via Graph Neural Networks</strong><br>
+<a href="https://openreview.net/forum?id=LIEqTJj3wR" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Random Probing for Structural Self-Interactions in Graph Neural Networks</strong><br>
+<a href="https://openreview.net/forum?id=fZxgMl3wcS" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>RelEHRBench: A Benchmark for Relational Learning on Longitudinal Electronic Health Records</strong><br>
+<a href="https://openreview.net/forum?id=Z5Sh8xSdTN" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Rethinking Self-Supervised Learning on Graphs with SwAG</strong><br>
+<a href="https://openreview.net/forum?id=oXKrdbn2A4" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>RouteGuardKV: Route-Preserving KV Cache Compression for Multi-Hop Reasoning</strong><br>
+<a href="https://openreview.net/forum?id=nvKgnKfVTn" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Where the Shell Dilation Sits in the Weisfeiler-Leman Hierarchy</strong><br>
+<a href="https://openreview.net/forum?id=ZQfaHRIV9b" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+</ol>
+<h3 id="posters-84">Posters (84)</h3>
+<ol>
+<li>
+<p><strong>A Label Noise Robust Algorithm for Graph Data using Neighborhood Label Distribution</strong><br>
+<a href="https://openreview.net/forum?id=8dYOidLAnE" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>A Living Leaderboard for Graph Machine Learning</strong><br>
+<a href="https://openreview.net/forum?id=LMrwCvgw3L" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Amortizing Physics-Informed Neural Solvers via Graph Hypernetworks</strong><br>
+<a href="https://openreview.net/forum?id=77QkI6pi0u" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>An Edge-Based Weisfeiler Leman Test for Hypergraphs</strong><br>
+<a href="https://openreview.net/forum?id=TSQ4wleOnv" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Anchor, Don&rsquo;t Name: What an Ontology Actually Contributes to LLM-Built Knowledge Graphs</strong><br>
+<a href="https://openreview.net/forum?id=0nIYLjMcaP" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>AttentionViG: Cross-Attention-Based Dynamic Neighbor Aggregation in Vision GNNs</strong><br>
+<a href="https://openreview.net/forum?id=adHJphQPgz" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Beyond Fixed Features: Architecture-Dependent Sensitivity to Node Representations under Heterophily</strong><br>
+<a href="https://openreview.net/forum?id=Q2pTkcRquE" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Beyond Homology: Non-Abelian and Orientability Invariants Sensitivity in Cellular Networks</strong><br>
+<a href="https://openreview.net/forum?id=OrKuzWXN0m" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Causal Anonymous Walk Contrastive Learning for Temporal Graph Representation</strong><br>
+<a href="https://openreview.net/forum?id=cJwuRATVU3" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>ChronoSpike: An Adaptive Spiking Graph Neural Network for Dynamic Graphs</strong><br>
+<a href="https://openreview.net/forum?id=SVvuE3St4F" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Community Information Horizons in Discrete Graph Diffusion: A Graphon Analysis</strong><br>
+<a href="https://openreview.net/forum?id=JfFK82bxG1" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Contrastive Neural Algorithmic Reasoning for Graph Coloring</strong><br>
+<a href="https://openreview.net/forum?id=2zndcRHvbf" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Degree Heterogeneity Impacts Generalization and Robustness of Neural ODEs on Graphs</strong><br>
+<a href="https://openreview.net/forum?id=iPal0hq4G8" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Diagnosing GNN Failure Modes with Layer-Wise Probe Entropy</strong><br>
+<a href="https://openreview.net/forum?id=VqnvacgPRd" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Diffuse and Steer: Corrective Sampling for Stable 3D Molecular Diffusion</strong><br>
+<a href="https://openreview.net/forum?id=70cHMtmAV8" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Distributionally Robust Graph Coarsening</strong><br>
+<a href="https://openreview.net/forum?id=Jtw1YSnRGR" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Dual-Certifying Graph Networks: Learned Per-Instance Approximation Certificates for Vertex Cover</strong><br>
+<a href="https://openreview.net/forum?id=Pji1wuDT9U" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>EccLift: Separating Strongly Regular Cospectral Mates without an Eigensolver</strong><br>
+<a href="https://openreview.net/forum?id=xdO5NpXW7o" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>EdgeReMIND: A Scalable, Top-Ranked Memorization Baseline for Temporal Multi-Relational Link Prediction</strong><br>
+<a href="https://openreview.net/forum?id=zuE2JJV8js" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Enhancing Representation Learning of Text-Attributed Graphs in Federated Graph Learning</strong><br>
+<a href="https://openreview.net/forum?id=snLnJfOkS4" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>EquiSite: Equivariant Graph Neural Networks for End-to-End Prediction of Multiple Ligand Binding Sites</strong><br>
+<a href="https://openreview.net/forum?id=wBMHDA5q2S" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Exact Metric Distortion and Aggregation Collisions on Bounded-Degree Trees</strong><br>
+<a href="https://openreview.net/forum?id=LraDPzd5lq" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Fixed Points Without Fixed Diffusion: Implicit Neural Sheaves for Convergent Test-Time Computation</strong><br>
+<a href="https://openreview.net/forum?id=GPFSyHEcyI" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>From Message-Passing to Linearized Graph Sequence Models</strong><br>
+<a href="https://openreview.net/forum?id=MrFPukOVAd" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>From Task Graphs to Training Mixtures: Graph-Structured Data Allocation for Language Models</strong><br>
+<a href="https://openreview.net/forum?id=5jFAnGBUXd" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Gauge-Invariant, Parameter-Insensitive Regularization for Potential Recovery from Flow on Directed Graphs</strong><br>
+<a href="https://openreview.net/forum?id=ZebBMsUN5d" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Generalization of Hypergraph Neural Networks via VC Dimension and Rademacher Complexity</strong><br>
+<a href="https://openreview.net/forum?id=X5hWrCzSeJ" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Good Scores, Wrong Marginals: Auditing Posterior Inference for Bayesian Graph Alignment</strong><br>
+<a href="https://openreview.net/forum?id=Qldfa83HgU" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Grables: When Graph Structure Helps Tabular Prediction</strong><br>
+<a href="https://openreview.net/forum?id=j2M2n1gstx" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>GRACE: Graph Repair for Alignment via Counterfactual Edits</strong><br>
+<a href="https://openreview.net/forum?id=ASsVhixwdO" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Graph Coloring via Learning and Metric-Guided Independent Set Extraction</strong><br>
+<a href="https://openreview.net/forum?id=Ta6AbaPOZb" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Graph Data Augmentation via Contrastive Generator Inversion (DCBA)</strong><br>
+<a href="https://openreview.net/forum?id=UCXDmp9gAk" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Graph Transductive Sharpening: Leveraging Unlabeled Predictions in Node Classification</strong><br>
+<a href="https://openreview.net/forum?id=Dw3H4INUbC" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>GraphNetz: Statistical Benchmarking of Graph Neural Networks with Paired Tests and Rank Aggregation</strong><br>
+<a href="https://openreview.net/forum?id=PEPedhPCl5" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Graph-Weighted Canonical Correlation Analysis: A Closed-Form Method for Inductive Attributed Graph Embedding</strong><br>
+<a href="https://openreview.net/forum?id=Xm7xwdzNVV" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Heterogeneous Graph Transformers with Type-Prior-Aware Contextual Sampling</strong><br>
+<a href="https://openreview.net/forum?id=m7s7XLNMBk" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Higher-Order Positional Encodings for Graph Representation Learning</strong><br>
+<a href="https://openreview.net/forum?id=dVhB0Vyyto" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>How Far Do Cheap Graph Invariants Separate on BREC? An Audit and a Distance-Regular No-Go Theorem</strong><br>
+<a href="https://openreview.net/forum?id=YudFIH7UdH" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>How Well Can Graph Quantization Tokenizer Capture Transferable Patterns?</strong><br>
+<a href="https://openreview.net/forum?id=xeUCeL4bVC" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>HSCN: Hyperbolic Spectral Convolutional Network via the Helgason–Fourier Transform</strong><br>
+<a href="https://openreview.net/forum?id=oBCPl4Wa4x" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Hyperbolic Graph Embedders for Link Prediction and Topology Reconstruction</strong><br>
+<a href="https://openreview.net/forum?id=1KK0dNLQJ6" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Hyperparameter Transfer in Graph Neural Networks</strong><br>
+<a href="https://openreview.net/forum?id=Jb55WKDrCy" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>KGCache: Amortized Subgraph Retrieval for KG Reasoning with LLMs</strong><br>
+<a href="https://openreview.net/forum?id=uIgRVKiClT" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Leak-Free Splits Rarely Exist, and the Giant Component Is Why</strong><br>
+<a href="https://openreview.net/forum?id=EdbLGL5uqe" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Learning Graph Neural Cellular Automata via Multi-Agent Reinforcement Learning</strong><br>
+<a href="https://openreview.net/forum?id=3dSqRhT8pV" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Learning SOCP Solver Dynamics with Graph Neural Networks</strong><br>
+<a href="https://openreview.net/forum?id=muAKJeIou4" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Leveraging single-sample networks for predictive modelling of longitudinal clinical data</strong><br>
+<a href="https://openreview.net/forum?id=KDt2EwBbng" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Linear Tropical Neural Algorithmic Reasoning</strong><br>
+<a href="https://openreview.net/forum?id=U0TN3WdHd1" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Normalized Routing Limits for Pruned Neural Networks: NNGP and NTK across Density Regimes</strong><br>
+<a href="https://openreview.net/forum?id=d1N55tbyIt" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Not All Nodes Are Created Equal: Homophily-Aware Stratification for Stable GNN Evaluation</strong><br>
+<a href="https://openreview.net/forum?id=lSENJPGmPA" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>On Halting vs Converging in Recurrent Graph Neural Networks</strong><br>
+<a href="https://openreview.net/forum?id=ryedBki8iv" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>On Model Complexity and Label Consistency in Multi-Label Odor Prediction with Graph Neural Networks and Hierarchical Classification</strong><br>
+<a href="https://openreview.net/forum?id=GL7eO5r5pJ" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Optimal Link Recommendations under Local Budgets for PageRank Fairness</strong><br>
+<a href="https://openreview.net/forum?id=EpvmjulWCl" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Path to Prior-Data Fitted Relational Models via Learned Latent Multi-table Representations</strong><br>
+<a href="https://openreview.net/forum?id=h3ryVAgFXc" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>ProtScape: A molecular structure and energy-aware representation for protein conformation generation</strong><br>
+<a href="https://openreview.net/forum?id=qBTkLyLsT5" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>QUARTET: QUad-branch cross-Attention and Random-walk Traces for Enhancing Transformers on Relational Graphs</strong><br>
+<a href="https://openreview.net/forum?id=YMOkVrzdG7" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>RAW-Explainer: Post-hoc Explanations of Path Reasoning Graph Neural Networks for Knowledge Graph Completion</strong><br>
+<a href="https://openreview.net/forum?id=zABjCIvn1H" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>RAwR: Role-Aware Rewiring via Approximate Equitable Partition</strong><br>
+<a href="https://openreview.net/forum?id=dnRr5PGkiE" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Repurposing Unified Topological Signatures for Graph Representation Learning</strong><br>
+<a href="https://openreview.net/forum?id=EwNYzoW1iv" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Rethinking Robustness in Graph Neural Networks: A Post-hoc Approach With Conditional Random Fields</strong><br>
+<a href="https://openreview.net/forum?id=Mw5AaVqrn3" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Revisiting Simple Baselines for Relational Deep Learning</strong><br>
+<a href="https://openreview.net/forum?id=THQ9X9zdfp" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Same Graph, Opposite Criteria: Per-Class Correctness Guarantees for Closed-World KGQA</strong><br>
+<a href="https://openreview.net/forum?id=v2Org6wbxn" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Same Injection, Different Reach: How Node Injections Propagate in GNNs and Serialised Transformers</strong><br>
+<a href="https://openreview.net/forum?id=5kWcliMKag" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Separating Route Choice from Feasibility in Graph-Constrained Path Prediction</strong><br>
+<a href="https://openreview.net/forum?id=Lrtk6lYeyv" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>SiGMA: Learning under Graph-Level Heterogeneity with Gated Message-Passing and Attention</strong><br>
+<a href="https://openreview.net/forum?id=OgURj8X2sT" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Signed Graph Pre-Training and Prompt Learning</strong><br>
+<a href="https://openreview.net/forum?id=4uLkNv4H0g" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Small Drug-Like Molecular Graphs Are Near-WL-Complete</strong><br>
+<a href="https://openreview.net/forum?id=s4b5RuJtGN" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Soft Equivariance through Lie Algebra Regularisation</strong><br>
+<a href="https://openreview.net/forum?id=FLfeBXCSK7" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Spectral Sparsification for Neural Sheaf Diffusion</strong><br>
+<a href="https://openreview.net/forum?id=UTQU9NsCdV" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>SpectralFormer: Geometry-Adaptive Spectral Mixing for Mesh Graph Dynamics</strong><br>
+<a href="https://openreview.net/forum?id=RmRdIK6Uzy" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Structure-Function Synergy in Graph Neural Networks</strong><br>
+<a href="https://openreview.net/forum?id=V6Epy8cYbA" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Supervised Incidence Sparsification of Hypergraphs under Budget Constraints</strong><br>
+<a href="https://openreview.net/forum?id=OWGwu9qYdU" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Support-Set Target Leakage in Relational Foundation Models during In-Context Learning: Impact, Detection, and Mitigation</strong><br>
+<a href="https://openreview.net/forum?id=Nmi9npY4Ow" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>The Graph Is Data: Feature-Induced Graph Learning Cannot Add Information</strong><br>
+<a href="https://openreview.net/forum?id=PBTDbX2Db6" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Towards Adversarially Robust Multigraph Neural Networks for Financial Crime Analysis</strong><br>
+<a href="https://openreview.net/forum?id=ccfq2agY19" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Traceable Context-Enriched Knowledge Graph Generation with Induced Schemas</strong><br>
+<a href="https://openreview.net/forum?id=FjZ8fcxz5H" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>TVGL–CFM: Generating and Forecasting Time-Varying Trajectories of Dynamic Networks with Conditional Flow Matching</strong><br>
+<a href="https://openreview.net/forum?id=IEl51onu2g" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>When Do Graph Features Help Fraud Detection? A Ladder Decomposition and Two Label-Leakage Mechanisms</strong><br>
+<a href="https://openreview.net/forum?id=oBL3sNnxvF" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>When Does the Graph Actually Help? Decomposing Feature and Structure Signal in Deep Graph Clustering</strong><br>
+<a href="https://openreview.net/forum?id=2qRBmjJ8bf" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>When Gibbs Damping Is Absorbed: Training Priors in Free-Coefficient Polynomial GNNs</strong><br>
+<a href="https://openreview.net/forum?id=bpFCBaheYy" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Where Recovery Confidence Fails: Non-Uniform Calibration Across the Detectability Transition of Community Detection</strong><br>
+<a href="https://openreview.net/forum?id=o2KdJ6iOGN" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Which Graph Shift Operator Should I Use? A Spectral Answer to an Empirical Question</strong><br>
+<a href="https://openreview.net/forum?id=eN7RUY6oNo" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Why Freeze the Encoder? A Controlled Study of End-to-End Sequence–Graph Learning for User Behavior</strong><br>
+<a href="https://openreview.net/forum?id=zbH5BBAyYW" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Zero-Shot Hypergraph Surrogate for Simulation and Inference of Dynamical Systems</strong><br>
+<a href="https://openreview.net/forum?id=mKze09bFaV" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+</ol>
+<hr>
+<h2 id="tmlr-track-12">TMLR Track (12)</h2>
+<ol>
+<li>
+<p><strong>A Journey Through Surface Convolutions</strong><br>
+Andreas Mazur, David Philip Leins, Fabian Hinder, Barbara Hammer<br>
+<a href="https://openreview.net/forum?id=lCwv0bo973" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Confidence-Aware Explanations for 3D Molecular Graphs via Energy-Based Masking</strong><br>
+Xufeng Liu, Wenhan Gao, Yi Liu<br>
+<a href="https://openreview.net/forum?id=V4oLqP0vJf" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Counting Still Counts: Understanding Neural Complex Query Answering Through Query Relaxation</strong><br>
+Yannick Brunink, Daniel Daza, Yunjie He, Michael Cochez<br>
+<a href="https://openreview.net/forum?id=YVFxB6bkeC" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Enhancing Graph Representations with Neighborhood-Contextualized Message-Passing</strong><br>
+Brian Godwin Lim, Galvin Brice Lim, Renzo Roel Tan, Irwin King, Kazushi Ikeda<br>
+<a href="https://openreview.net/forum?id=6nxdSt5pSn" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>FIT-GNN: Faster Inference Time for GNNs that ‘FIT’ in Memory Using Coarsening</strong><br>
+Shubhajit Roy, Hrriday Ruparel, Kishan Ved, Anirban Dasgupta<br>
+<a href="https://openreview.net/forum?id=g7r7y2I7Sz" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>From Euclidean to Graph-Structured Data: A Survey of Collaborative Learning</strong><br>
+Rémi Bourgerie, Sarunas Girdzijauskas, Viktoria Fodor<br>
+<a href="https://openreview.net/forum?id=vj9l8AjLT6" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>GENIE: Watermarking Graph Neural Networks for Link Prediction</strong><br>
+Venkata Sai Pranav Bachina, Aaryan Ajay Sharma, Charu Sharma, Ankit Gangwal<br>
+<a href="https://openreview.net/forum?id=EmDuoySsbe" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Interactive Query Answering on Knowledge Graphs with Soft Entity Constraints</strong><br>
+Daniel Daza, Alberto Bernardi, Luca Costabello, Christophe Gueret, Masoud Mansoury, Michael Cochez, M.C. Schut<br>
+<a href="https://openreview.net/forum?id=Qb6vIM7MxE" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Node-Level Data Valuation on Graphs</strong><br>
+Simone Antonelli, Aleksandar Bojchevski<br>
+<a href="https://openreview.net/forum?id=tNyApIqDSJ" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>PROXI: Challenging the GNNs for Link Prediction</strong><br>
+Astrit Tola, Jack Myrick, Baris Coskunuzer<br>
+<a href="https://openreview.net/forum?id=u9EHndbiVw" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>Tackling GNARLy Problems: Graph Neural Algorithmic Reasoning Reimagined through Reinforcement Learning</strong><br>
+Alex Schutz, Victor-Alexandru Darvariu, Efimia Panagiotaki, Bruno Lacerda, Nick Hawes<br>
+<a href="https://openreview.net/forum?id=3aeMfeKlKh" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+<li>
+<p><strong>U-CECE: A Universal Multi-Resolution Framework for Conceptual Counterfactual Explanations</strong><br>
+Angeliki Dimitriou, Nikolaos Chaidos, Maria Lymperaiou, Giorgos Filandrianos, Giorgos Stamou<br>
+<a href="https://openreview.net/forum?id=DmgXSefvC0" target="_blank" rel="noopener">OpenReview</a></p>
+</li>
+</ol>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2026 Learning on Graphs Conference.
+  </p>
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.3d946de2e8784a477845261d87025092.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.e8fd2d733eef6a8bbbe0539398fc0547.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.1e6778f7ffd0c664a75c7abec9c8025d.js"></script>
+
+    
+    
+      <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+    
+    
+    
+    
+
+
+
+
+
+
+</body>
+</html>
